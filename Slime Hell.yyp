@@ -39,18 +39,20 @@
   "name":"Slime Hell",
   "resources":[
     {"id":{"name":"bob","path":"objects/bob/bob.yy",},},
-    {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
-    {"id":{"name":"hot","path":"sprites/hot/hot.yy",},},
     {"id":{"name":"boss","path":"objects/boss/boss.yy",},},
     {"id":{"name":"theCircle","path":"objects/theCircle/theCircle.yy",},},
+    {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
     {"id":{"name":"ChargeCircle","path":"sprites/ChargeCircle/ChargeCircle.yy",},},
     {"id":{"name":"guy","path":"sprites/guy/guy.yy",},},
+    {"id":{"name":"hot","path":"sprites/hot/hot.yy",},},
     {"id":{"name":"incomprehensible_gif","path":"sprites/incomprehensible_gif/incomprehensible_gif.yy",},},
     {"id":{"name":"Sprite3","path":"sprites/Sprite3/Sprite3.yy",},},
   ],
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
-  "RoomOrderNodes":[],
+  "RoomOrderNodes":[
+    {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
+  ],
   "templateType":"game",
   "TextureGroups":[
     {"$GMTextureGroup":"","%Name":"Default","autocrop":true,"border":2,"compressFormat":"bz2","customOptions":"","directory":"","groupParent":null,"isScaled":true,"loadType":"default","mipsToGenerate":0,"name":"Default","resourceType":"GMTextureGroup","resourceVersion":"2.0","targets":-1,},

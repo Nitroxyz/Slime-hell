@@ -4,14 +4,20 @@ max_spedd = 10;
 dash_distance = 0; // Dash distance in pixels
 dash_step = 0; // Step of dash (0 - 17)
 dashing = false; // Is he dashing?
-min_dash = 0; // Minimum dash distance in pixels
+min_dash = 80; // Minimum dash distance in pixels
 
 // Dash function
 dash = function(_x, _y){
 	dash_distance = point_distance(x, y, _x, _y);
+	if(dash_distance < min_dash){
+		return; //End function
+	}
 	direction = point_direction(x, y, _x, _y);
-	x = _x;
-	y = _y;
+	//move_towards_point(_x, _y, dash_distance/18);
+	//x = _x;
+	//y = _y;
+	dashing = true;
+	dash_step = 0;
 	sprite_index = hot;
 	alarm_set(0, 18);
 }
