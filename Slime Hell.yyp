@@ -34,8 +34,11 @@
   },
   "name":"Slime Hell",
   "resources":[
+    {"id":{"name":"bob","path":"objects/bob/bob.yy",},},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
+    {"id":{"name":"hot","path":"sprites/hot/hot.yy",},},
     {"id":{"name":"incomprehensible_gif","path":"sprites/incomprehensible_gif/incomprehensible_gif.yy",},},
+    {"id":{"name":"Sprite3","path":"sprites/Sprite3/Sprite3.yy",},},
   ],
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
