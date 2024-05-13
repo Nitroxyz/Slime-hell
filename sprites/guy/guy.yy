@@ -44,8 +44,8 @@
   },
   "origin":4,
   "parent":{
-    "name":"LiesSprites",
-    "path":"folders/Sprites/LiesSprites.yy",
+    "name":"CANCELLED",
+    "path":"folders/Sprites/CANCELLED.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",
