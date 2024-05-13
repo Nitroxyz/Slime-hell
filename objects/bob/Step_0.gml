@@ -52,3 +52,17 @@ if(dash_step > 18){
 	speed = 0;
 }
 #endregion
+
+//Animation
+if(dashing){
+	sprite_index = spr_hot;
+} else {
+	if(speed > 0){
+		sprite_index = spr_tophat;
+	} else {
+		sprite_index = spr_incomprehensible_gif;
+	}
+}
+if(hspeed != 0){
+	image_xscale = sign(hspeed);
+}
