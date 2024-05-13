@@ -6,8 +6,8 @@
   "name":"boss",
   "overriddenProperties":[],
   "parent":{
-    "name":"BossObjects",
-    "path":"folders/Objects/BossObjects.yy",
+    "name":"CANCELLED",
+    "path":"folders/Objects/BossObjects/CANCELLED.yy",
   },
   "parentObjectId":null,
   "persistent":false,
