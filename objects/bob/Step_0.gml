@@ -41,4 +41,28 @@ speed = max_spedd * input_level;
 if(dash_key){
 	dash(mouse_x, mouse_y);
 }
+// Dash movement
+if(dashing){
+	move_towards_point(mouse_x, mouse_y, dash_distance/18);
+	dash_step++;
+}
+if(dash_step > 18){
+	dashing = false;
+	dash_step = 0;
+	speed = 0;
+}
 #endregion
+
+//Animation
+if(dashing){
+	sprite_index = spr_hot;
+} else {
+	if(speed > 0){
+		sprite_index = spr_tophat;
+	} else {
+		sprite_index = spr_incomprehensible_gif;
+	}
+}
+if(hspeed != 0){
+	image_xscale = sign(hspeed);
+}
