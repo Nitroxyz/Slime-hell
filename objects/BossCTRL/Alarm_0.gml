@@ -1,6 +1,6 @@
 /// @description Major timer
 
-//major_segment = 3;
+major_segment = 3;
 
 //unimplemented for now
 /*

@@ -1,5 +1,8 @@
 ///@description returns the path to normal and deletes the drones.
-
+		
+		//setting is_major to false
+		is_major = false
+		
 		//paths need to be flipped back if entering the right door.
 		if(BossCTRL.path_flipped == false) {
 		path_mirror(spawnPath1);

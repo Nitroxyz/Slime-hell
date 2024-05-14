@@ -10,3 +10,7 @@ moveup = function() {
 	Rhand.x = 1660;
 	
 }
+
+callsimul =  function() {
+	Rhand.x -= 100;
+}
