@@ -1,7 +1,7 @@
 ///@description returns the path to normal and deletes the drones.
 		
 		//major ending routine: set is_major to false, set major alarm to 0
-		is_major = false
+		is_major = false;
 		BossCTRL.alarm[0] = 300;
 		//paths need to be flipped back if entering the right door.
 		if(BossCTRL.path_flipped == false) {

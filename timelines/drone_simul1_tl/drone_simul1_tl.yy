@@ -7,8 +7,8 @@
   ],
   "name":"drone_simul1_tl",
   "parent":{
-    "name":"Attacks",
-    "path":"folders/Timelines/Boss/Attacks.yy",
+    "name":"Simuls",
+    "path":"folders/Timelines/Boss/Attacks/Simuls.yy",
   },
   "resourceType":"GMTimeline",
   "resourceVersion":"2.0",

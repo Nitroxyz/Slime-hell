@@ -21,15 +21,19 @@ callmajor = function() {
 }
 
 callsimul =  function() {
+	
+	///TODO:
+	//getting this attack twice at the same time is way too hard to dodge
+	//I think i'll limit the range of the drone's travel angle to it's side of the screen
+	
+	//make drones stop shooting an extra time once off the screen.
+	
 	show_debug_message("Lspawner is simulling all over the place");
 	//The standard simul starting routine.
 	is_simul = true;
 	BossCTRL.countsimuls()
 	
-	//drone simul will spawn a drone that will go to a certain location
-	//What is unique about this attack is where the drone travels too. 
-	//but since idk where that will be yet I will try to implement a system to make the path go wherever you want.
-	//for now the path will go to a random point below the screen.
+	//this is a short path that exits the spawn, I can use it as a shortcut to make the drone take a curved path out the spawn door
 	drone_simul1_path = path_duplicate(spawnPathShort);
 	
 	//this is the part you would change to make the drone go wherever.

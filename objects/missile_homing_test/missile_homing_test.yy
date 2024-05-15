@@ -1,12 +1,12 @@
 {
   "$GMObject":"",
-  "%Name":"missile_incorporeal",
+  "%Name":"missile_homing_test",
   "eventList":[
     {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"missile_incorporeal",
+  "name":"missile_homing_test",
   "overriddenProperties":[],
   "parent":{
     "name":"Attack objects",
@@ -31,8 +31,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_falling_rocket",
-    "path":"sprites/spr_falling_rocket/spr_falling_rocket.yy",
+    "name":"spr_default_rocket",
+    "path":"sprites/spr_default_rocket/spr_default_rocket.yy",
   },
   "spriteMaskId":null,
   "visible":true,

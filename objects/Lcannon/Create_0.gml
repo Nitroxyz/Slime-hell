@@ -3,7 +3,14 @@ event_inherited()
 left_side = true;
 
 callmajor = function() {
-	Lcannon.x -= 100;
+	is_major = true;
+	
+	timeline_index = missile_major_tl;
+	timeline_running = true;
+	timeline_speed = 1;
+	timeline_position = 0;
+	timeline_loop = false;
+	
 }
 
 callsimul =  function() {

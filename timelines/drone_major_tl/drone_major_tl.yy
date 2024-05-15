@@ -17,8 +17,8 @@
   ],
   "name":"drone_major_tl",
   "parent":{
-    "name":"Attacks",
-    "path":"folders/Timelines/Boss/Attacks.yy",
+    "name":"Majors",
+    "path":"folders/Timelines/Boss/Attacks/Majors.yy",
   },
   "resourceType":"GMTimeline",
   "resourceVersion":"2.0",
