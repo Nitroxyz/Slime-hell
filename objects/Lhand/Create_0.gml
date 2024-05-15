@@ -1,4 +1,7 @@
 event_inherited()
+state = 3;
+
+left_side = true;
 
 callmajor = function() {
 	

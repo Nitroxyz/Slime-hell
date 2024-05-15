@@ -1,0 +1,19 @@
+{
+  "$GMPath":"",
+  "%Name":"spawnPathShort",
+  "closed":false,
+  "kind":1,
+  "name":"spawnPathShort",
+  "parent":{
+    "name":"DronePaths",
+    "path":"folders/Paths/BossPaths/DronePaths.yy",
+  },
+  "points":[
+    {"speed":100.0,"x":0.0,"y":0.0,},
+    {"speed":100.0,"x":0.0,"y":50.0,},
+    {"speed":100.0,"x":0.0,"y":200.0,},
+  ],
+  "precision":4,
+  "resourceType":"GMPath",
+  "resourceVersion":"2.0",
+}

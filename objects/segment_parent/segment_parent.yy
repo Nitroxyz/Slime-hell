@@ -29,6 +29,7 @@
     {"$GMObjectProperty":"v1","%Name":"state","filters":[],"listItems":[],"multiselect":false,"name":"state","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"0","varType":1,},
     {"$GMObjectProperty":"v1","%Name":"is_major","filters":[],"listItems":[],"multiselect":false,"name":"is_major","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"0","varType":3,},
     {"$GMObjectProperty":"v1","%Name":"is_simul","filters":[],"listItems":[],"multiselect":false,"name":"is_simul","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"0","varType":3,},
+    {"$GMObjectProperty":"v1","%Name":"left_side","filters":[],"listItems":[],"multiselect":false,"name":"left_side","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"0","varType":3,},
   ],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",

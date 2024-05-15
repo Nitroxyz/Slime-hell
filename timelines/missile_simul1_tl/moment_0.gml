@@ -35,7 +35,7 @@
 		
 		//Spawns the missile, then starts it on the path
 		gridMissile1  = instance_create_layer(tile_grid.x + tile_centers[randtile][0], tile_grid.y + tile_centers[randtile][1] - 1080, "Projectiles", missile_incorporeal);
-		gridMissile1.startpath(fallingPath, 36, path_action_stop, false, 170);
+		gridMissile1.startpath(fallingPath, 36, path_action_stop, false, 60);
 		}
 		//removes the used tile from the array, allowing the randomizer to select from the remaining tiles
 		array_delete(tile_centers, randtile,1);

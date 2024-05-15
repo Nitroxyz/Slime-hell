@@ -4,6 +4,6 @@
 //the x dissapearing will be synced with when the missiles shadow appears, not when the missile hits the ground
 //this means more telegraphing.
 timer += 1;
-if(timer > 179) {
+if(timer > 59) {
 instance_destroy();	
 }
