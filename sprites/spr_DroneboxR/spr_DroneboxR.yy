@@ -1,6 +1,6 @@
 {
   "$GMSprite":"",
-  "%Name":"DroneboxR",
+  "%Name":"spr_DroneboxR",
   "bboxMode":0,
   "bbox_bottom":97,
   "bbox_left":0,
@@ -26,7 +26,7 @@
   "layers":[
     {"$GMImageLayer":"","%Name":"ed6ba09f-1994-4683-a1f6-e1c8deb5110d","blendMode":0,"displayName":"default","isLocked":false,"name":"ed6ba09f-1994-4683-a1f6-e1c8deb5110d","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
-  "name":"DroneboxR",
+  "name":"spr_DroneboxR",
   "nineSlice":null,
   "origin":4,
   "parent":{
@@ -38,7 +38,7 @@
   "resourceVersion":"2.0",
   "sequence":{
     "$GMSequence":"",
-    "%Name":"DroneboxR",
+    "%Name":"spr_DroneboxR",
     "autoRecord":true,
     "backdropHeight":768,
     "backdropImageOpacity":0.5,
@@ -62,7 +62,7 @@
       "resourceType":"KeyframeStore<MomentsEventKeyframe>",
       "resourceVersion":"2.0",
     },
-    "name":"DroneboxR",
+    "name":"spr_DroneboxR",
     "playback":1,
     "playbackSpeed":10.0,
     "playbackSpeedType":0,
@@ -74,22 +74,22 @@
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"1050c5b7-8660-4b89-91b8-988d5be9a879","path":"sprites/DroneboxR/DroneboxR.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"1050c5b7-8660-4b89-91b8-988d5be9a879","path":"sprites/spr_DroneboxR/spr_DroneboxR.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
               },"Disabled":false,"id":"9415dc6b-edfe-4053-b3c2-263308219cb0","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"671ffcbb-7af5-4abf-b70b-a08d8fb38ae2","path":"sprites/DroneboxR/DroneboxR.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"671ffcbb-7af5-4abf-b70b-a08d8fb38ae2","path":"sprites/spr_DroneboxR/spr_DroneboxR.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
               },"Disabled":false,"id":"ba1a1f5c-1209-4b04-92c0-12873295c56d","IsCreationKey":false,"Key":1.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"a4f9ef5d-4cbc-411c-bd1d-a80171d28fb2","path":"sprites/DroneboxR/DroneboxR.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"a4f9ef5d-4cbc-411c-bd1d-a80171d28fb2","path":"sprites/spr_DroneboxR/spr_DroneboxR.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
               },"Disabled":false,"id":"356f1ea0-0575-4387-8338-9b49dedf32f1","IsCreationKey":false,"Key":2.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"7a88c303-b48b-4cbc-9f16-626dde3fd777","path":"sprites/DroneboxR/DroneboxR.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"7a88c303-b48b-4cbc-9f16-626dde3fd777","path":"sprites/spr_DroneboxR/spr_DroneboxR.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
               },"Disabled":false,"id":"b36d92b2-3db6-43c0-befc-5ab164b28fc2","IsCreationKey":false,"Key":3.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"d46e7839-6995-4926-88f0-14deb2136b08","path":"sprites/DroneboxR/DroneboxR.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"d46e7839-6995-4926-88f0-14deb2136b08","path":"sprites/spr_DroneboxR/spr_DroneboxR.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
               },"Disabled":false,"id":"da05fc99-e9f0-4c61-8ca5-f7c0088142f3","IsCreationKey":false,"Key":4.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"c5db07d9-ca1e-44ef-ae8c-03bbe078d9ac","path":"sprites/DroneboxR/DroneboxR.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"c5db07d9-ca1e-44ef-ae8c-03bbe078d9ac","path":"sprites/spr_DroneboxR/spr_DroneboxR.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
               },"Disabled":false,"id":"40998fec-4a3d-4b00-abe5-ab273e92c10c","IsCreationKey":false,"Key":5.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
