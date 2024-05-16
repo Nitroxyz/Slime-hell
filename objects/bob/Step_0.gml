@@ -64,7 +64,7 @@ if(dash_step > 18){
 
 // Freezing
 #region
-if(freeze_key and !move_lock){
+if(freeze_key and !move_lock and freeze_full){
 	freeze();
 }
 #endregion
@@ -125,7 +125,7 @@ if(place_meeting(x, y, ice_trail) and !freezing){
 		freeze_meter--;
 	}
 } else {
-	freeze_meter += 4;
+	freeze_meter += 6;
 }
 freeze_meter = clamp(freeze_meter, 0, freeze_max);
 if(freeze_meter = 0){

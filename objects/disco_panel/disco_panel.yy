@@ -1,20 +1,15 @@
 {
   "$GMObject":"",
-  "%Name":"ice_trail",
-  "eventList":[
-    {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-  ],
+  "%Name":"disco_panel",
+  "eventList":[],
   "managed":true,
-  "name":"ice_trail",
+  "name":"disco_panel",
   "overriddenProperties":[],
   "parent":{
-    "name":"Bob",
-    "path":"folders/Objects/Bob.yy",
+    "name":"Objects",
+    "path":"folders/Objects.yy",
   },
-  "parentObjectId":{
-    "name":"daddy_noneya_trail",
-    "path":"objects/daddy_noneya_trail/daddy_noneya_trail.yy",
-  },
+  "parentObjectId":null,
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
@@ -33,8 +28,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_ice_trail_1",
-    "path":"sprites/spr_ice_trail_1/spr_ice_trail_1.yy",
+    "name":"spr_disco_panel",
+    "path":"sprites/spr_disco_panel/spr_disco_panel.yy",
   },
   "spriteMaskId":null,
   "visible":true,
