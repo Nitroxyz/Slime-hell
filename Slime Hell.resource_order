@@ -36,6 +36,7 @@
   "ResourceOrderSettings":[
     {"name":"boss","order":1,"path":"objects/boss/boss.yy",},
     {"name":"BossCTRL","order":3,"path":"objects/BossCTRL/BossCTRL.yy",},
+    {"name":"buton","order":15,"path":"objects/buton/buton.yy",},
     {"name":"daddy_noneya_overhead","order":1,"path":"objects/daddy_noneya_overhead/daddy_noneya_overhead.yy",},
     {"name":"daddy_noneya_projectile","order":2,"path":"objects/daddy_noneya_projectile/daddy_noneya_projectile.yy",},
     {"name":"daddy_noneya_trail","order":3,"path":"objects/daddy_noneya_trail/daddy_noneya_trail.yy",},
@@ -93,8 +94,9 @@
     {"name":"spr_right_dronebox","order":4,"path":"sprites/spr_right_dronebox/spr_right_dronebox.yy",},
     {"name":"spr_right_hand","order":6,"path":"sprites/spr_right_hand/spr_right_hand.yy",},
     {"name":"spr_slime_excrete","order":3,"path":"sprites/spr_slime_excrete/spr_slime_excrete.yy",},
+    {"name":"spr_Sprite32","order":10,"path":"sprites/spr_Sprite32/spr_Sprite32.yy",},
+    {"name":"spr_start","order":6,"path":"sprites/spr_start/spr_start.yy",},
     {"name":"spr_tophat","order":3,"path":"sprites/spr_tophat/spr_tophat.yy",},
-    {"name":"Sprite32","order":10,"path":"sprites/Sprite32/Sprite32.yy",},
     {"name":"Sprite9","order":16,"path":"sprites/Sprite9/Sprite9.yy",},
     {"name":"xmarksthespot","order":10,"path":"sprites/xmarksthespot/xmarksthespot.yy",},
   ],
