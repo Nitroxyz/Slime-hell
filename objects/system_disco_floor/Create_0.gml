@@ -1,13 +1,13 @@
 /// @description 
 
 //Size of grid
-length_x = 8;
-length_y = 5
+length_x = 12;
+length_y = 6
 // Start value of grid (Top left)
 start_x = 500;
 start_y = 500
 // Distance between panels
-panel_distance = 64;
+panel_distance = 80;
 
 
 floor_colors = {

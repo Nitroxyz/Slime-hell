@@ -75,6 +75,7 @@
     {"id":{"name":"Rspawner","path":"objects/Rspawner/Rspawner.yy",},},
     {"id":{"name":"segment_parent","path":"objects/segment_parent/segment_parent.yy",},},
     {"id":{"name":"system_disco_floor","path":"objects/system_disco_floor/system_disco_floor.yy",},},
+    {"id":{"name":"system_the_darkness_is_coming","path":"objects/system_the_darkness_is_coming/system_the_darkness_is_coming.yy",},},
     {"id":{"name":"theCircle","path":"objects/theCircle/theCircle.yy",},},
     {"id":{"name":"returnPath2","path":"paths/returnPath2/returnPath2.yy",},},
     {"id":{"name":"returnPath4","path":"paths/returnPath4/returnPath4.yy",},},

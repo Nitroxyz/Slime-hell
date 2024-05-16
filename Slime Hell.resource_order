@@ -53,6 +53,7 @@
     {"name":"Rspawner","order":5,"path":"objects/Rspawner/Rspawner.yy",},
     {"name":"segment_parent","order":4,"path":"objects/segment_parent/segment_parent.yy",},
     {"name":"system_disco_floor","order":10,"path":"objects/system_disco_floor/system_disco_floor.yy",},
+    {"name":"system_the_darkness_is_coming","order":11,"path":"objects/system_the_darkness_is_coming/system_the_darkness_is_coming.yy",},
     {"name":"theCircle","order":1,"path":"objects/theCircle/theCircle.yy",},
     {"name":"returnPath2","order":9,"path":"paths/returnPath2/returnPath2.yy",},
     {"name":"returnPath4","order":10,"path":"paths/returnPath4/returnPath4.yy",},
