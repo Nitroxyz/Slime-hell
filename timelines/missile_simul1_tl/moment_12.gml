@@ -1,5 +1,4 @@
 ///@desc spawn 2nd missile
-
 		var randtile = irandom(array_length(tile_centers) - 1);
 
 		//only spawns objects if the missile would fall within the bounds of the screen
