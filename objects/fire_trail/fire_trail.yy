@@ -13,8 +13,8 @@
     "path":"folders/Objects/Bob.yy",
   },
   "parentObjectId":{
-    "name":"daddy_noneya_projectile",
-    "path":"objects/daddy_noneya_projectile/daddy_noneya_projectile.yy",
+    "name":"daddy_noneya_trail",
+    "path":"objects/daddy_noneya_trail/daddy_noneya_trail.yy",
   },
   "persistent":false,
   "physicsAngularDamping":0.1,
