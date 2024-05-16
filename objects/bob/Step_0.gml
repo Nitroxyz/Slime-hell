@@ -73,6 +73,7 @@ if(freeze_key and !move_lock and freeze_full){
 #endregion
 
 //Animation
+#region
 if(dashing){
 	sprite_index = spr_hot;
 } else {
@@ -85,6 +86,7 @@ if(dashing){
 if(hspeed != 0){
 	image_xscale = sign(hspeed);
 }
+#endregion
 
 //Taking damage
 #region

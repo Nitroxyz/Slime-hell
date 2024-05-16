@@ -1,12 +1,14 @@
 {
   "$GMObject":"",
-  "%Name":"system_the_darkness_is_coming",
+  "%Name":"system_pause",
   "eventList":[
+    {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":27,"eventType":9,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":80,"eventType":9,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":8,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"system_the_darkness_is_coming",
+  "name":"system_pause",
   "overriddenProperties":[],
   "parent":{
     "name":"System",
@@ -32,5 +34,5 @@
   "solid":false,
   "spriteId":null,
   "spriteMaskId":null,
-  "visible":false,
+  "visible":true,
 }

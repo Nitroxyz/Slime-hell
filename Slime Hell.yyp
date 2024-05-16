@@ -23,6 +23,8 @@
     {"$GMFolder":"","%Name":"DronePaths","folderPath":"folders/Objects/BossObjects/paths/DronePaths.yy","name":"DronePaths","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Segments","folderPath":"folders/Objects/BossObjects/Segments.yy","name":"Segments","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"timelines","folderPath":"folders/Objects/BossObjects/timelines.yy","name":"timelines","resourceType":"GMFolder","resourceVersion":"2.0",},
+    {"$GMFolder":"","%Name":"Parents","folderPath":"folders/Objects/Parents.yy","name":"Parents","resourceType":"GMFolder","resourceVersion":"2.0",},
+    {"$GMFolder":"","%Name":"System","folderPath":"folders/Objects/System.yy","name":"System","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"UI","folderPath":"folders/Objects/UI.yy","name":"UI","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Particle Systems","folderPath":"folders/Particle Systems.yy","name":"Particle Systems","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Paths","folderPath":"folders/Paths.yy","name":"Paths","resourceType":"GMFolder","resourceVersion":"2.0",},
@@ -75,6 +77,7 @@
     {"id":{"name":"Rspawner","path":"objects/Rspawner/Rspawner.yy",},},
     {"id":{"name":"segment_parent","path":"objects/segment_parent/segment_parent.yy",},},
     {"id":{"name":"system_disco_floor","path":"objects/system_disco_floor/system_disco_floor.yy",},},
+    {"id":{"name":"system_pause","path":"objects/system_pause/system_pause.yy",},},
     {"id":{"name":"system_the_darkness_is_coming","path":"objects/system_the_darkness_is_coming/system_the_darkness_is_coming.yy",},},
     {"id":{"name":"theCircle","path":"objects/theCircle/theCircle.yy",},},
     {"id":{"name":"returnPath2","path":"paths/returnPath2/returnPath2.yy",},},
@@ -89,6 +92,7 @@
     {"id":{"name":"spawnPath4","path":"paths/spawnPath4/spawnPath4.yy",},},
     {"id":{"name":"spawnPath5","path":"paths/spawnPath5/spawnPath5.yy",},},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
+    {"id":{"name":"Room2","path":"rooms/Room2/Room2.yy",},},
     {"id":{"name":"ChargeCircle","path":"sprites/ChargeCircle/ChargeCircle.yy",},},
     {"id":{"name":"drone_sprite","path":"sprites/drone_sprite/drone_sprite.yy",},},
     {"id":{"name":"Grid","path":"sprites/Grid/Grid.yy",},},
@@ -131,6 +135,7 @@
   "resourceVersion":"2.0",
   "RoomOrderNodes":[
     {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
+    {"roomId":{"name":"Room2","path":"rooms/Room2/Room2.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[
