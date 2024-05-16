@@ -128,7 +128,7 @@ if(place_meeting(x, y, ice_trail) and !freezing){
 		freeze_meter--;
 	}
 } else {
-	freeze_meter += 6;
+	freeze_meter += f_d;
 }
 freeze_meter = clamp(freeze_meter, 0, freeze_max);
 if(freeze_meter = 0){

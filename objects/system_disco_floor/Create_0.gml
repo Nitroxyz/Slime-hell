@@ -23,6 +23,7 @@ for(var _x = 0; _x < length_x; _x++){
 		var inst = instance_create_layer(start_x + panel_distance * _x, start_y + panel_distance * _y, "DiscoLayer", disco_panel);
 		with (inst){
 			image_index = random_range(0, 3);
+			image_alpha = 1;
 		}
 		ds_grid_set(panel_grid, _x, _y, inst);
 	}

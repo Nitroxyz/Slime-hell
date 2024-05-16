@@ -6,8 +6,13 @@ max_spedd = 10;
 //min_dash = 80;
 // Duration of a click buffer
 dash_buffer_time = 5;
+//Freeze fills up in x seconds
+f_f = 10;
+//Freeze deplete x times slow than it fills
+f_d = 2;
 // Freeze meter must reach this to get maxed
-freeze_max = 3600;
+freeze_max = 60 * f_f * f_d;
+
 #endregion
 
 // Auto-set variables
