@@ -1,12 +1,12 @@
 {
   "$GMObject":"",
-  "%Name":"missile_grid",
+  "%Name":"missile_incorporeal",
   "eventList":[
     {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"missile_grid",
+  "name":"missile_incorporeal",
   "overriddenProperties":[],
   "parent":{
     "name":"Attack objects",
@@ -31,9 +31,9 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"Grid",
-    "path":"sprites/Grid/Grid.yy",
+    "name":"spr_falling_rocket",
+    "path":"sprites/spr_falling_rocket/spr_falling_rocket.yy",
   },
   "spriteMaskId":null,
-  "visible":false,
+  "visible":true,
 }

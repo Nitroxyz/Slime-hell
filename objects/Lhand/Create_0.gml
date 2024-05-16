@@ -1,4 +1,7 @@
 event_inherited()
+state = 3;
+
+left_side = true;
 
 callmajor = function() {
 	
@@ -9,4 +12,8 @@ moveup = function() {
 	Lhand.y = 240;
 	Lhand.x = 260;
 	
+}
+
+callsimul =  function() {
+	Lhand.x -= 100;
 }

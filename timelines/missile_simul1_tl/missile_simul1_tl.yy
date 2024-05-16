@@ -1,0 +1,22 @@
+{
+  "$GMTimeline":"",
+  "%Name":"missile_simul1_tl",
+  "momentList":[
+    {"$GMMoment":"","%Name":"","evnt":{"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},"moment":0,"name":"","resourceType":"GMMoment","resourceVersion":"2.0",},
+    {"$GMMoment":"","%Name":"","evnt":{"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":12,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},"moment":12,"name":"","resourceType":"GMMoment","resourceVersion":"2.0",},
+    {"$GMMoment":"","%Name":"","evnt":{"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":24,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},"moment":24,"name":"","resourceType":"GMMoment","resourceVersion":"2.0",},
+    {"$GMMoment":"","%Name":"","evnt":{"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":36,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},"moment":36,"name":"","resourceType":"GMMoment","resourceVersion":"2.0",},
+    {"$GMMoment":"","%Name":"","evnt":{"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":48,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},"moment":48,"name":"","resourceType":"GMMoment","resourceVersion":"2.0",},
+    {"$GMMoment":"","%Name":"","evnt":{"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":60,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},"moment":60,"name":"","resourceType":"GMMoment","resourceVersion":"2.0",},
+    {"$GMMoment":"","%Name":"","evnt":{"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":72,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},"moment":72,"name":"","resourceType":"GMMoment","resourceVersion":"2.0",},
+    {"$GMMoment":"","%Name":"","evnt":{"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":84,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},"moment":84,"name":"","resourceType":"GMMoment","resourceVersion":"2.0",},
+    {"$GMMoment":"","%Name":"","evnt":{"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":134,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},"moment":134,"name":"","resourceType":"GMMoment","resourceVersion":"2.0",},
+  ],
+  "name":"missile_simul1_tl",
+  "parent":{
+    "name":"Simuls",
+    "path":"folders/Timelines/Boss/Attacks/Simuls.yy",
+  },
+  "resourceType":"GMTimeline",
+  "resourceVersion":"2.0",
+}

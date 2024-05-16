@@ -1,7 +1,10 @@
 {
   "$GMObject":"",
   "%Name":"missile_warning",
-  "eventList":[],
+  "eventList":[
+    {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+  ],
   "managed":true,
   "name":"missile_warning",
   "overriddenProperties":[],
@@ -10,8 +13,8 @@
     "path":"folders/Objects/BossObjects/Attack objects.yy",
   },
   "parentObjectId":{
-    "name":"missile_grid",
-    "path":"objects/missile_grid/missile_grid.yy",
+    "name":"missile_grid_object",
+    "path":"objects/missile_grid_object/missile_grid_object.yy",
   },
   "persistent":false,
   "physicsAngularDamping":0.1,
@@ -31,8 +34,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"xmarksthespot",
-    "path":"sprites/xmarksthespot/xmarksthespot.yy",
+    "name":"WATCHOUT",
+    "path":"sprites/WATCHOUT/WATCHOUT.yy",
   },
   "spriteMaskId":null,
   "visible":true,

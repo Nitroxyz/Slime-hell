@@ -1,49 +1,16 @@
 /// @description Major timer
 
-//major_segment = 3;
+major_segment = -1;
+//show_debug_message("alarm starting!")
 
-//unimplemented for now
-/*
-if (head_segment.state == -1) 
-{
-major_segment = irandom_range(1, head_segment.remaining_segments);
+//I need to pause simuls for a single frame while starting the major
+//pausing simuls is necessary because a simul and major for the same segment being called on the same frame causes the is_major/is_simul variables to desync.
+//I guess I'll line everything up with another timeline
 
-}
-else {
-major_segment = irandom_range(0, head_segment.remaining_segments);	
-}
-*/
+timeline_index = major_start_tl
+timeline_running = true;
+timeline_speed = 1;
+timeline_position = 0;
+timeline_loop = false;
 
-//calls the segment that was selected
-switch (major_segment) 
-{
-	case 0:
-		head_segment.callmajor();
-		break;
-	case 1:
-		missile_left.callmajor();
-		break;
-	case 2:
-		hand_left.callmajor();
-		break;
-	case 3:
-		spawner_left.callmajor();
-		//hands move out of the way for the drone pattern.
-		hand_right.moveup();
-		hand_left.moveup();
-		break;
-	case 4:
-		missile_right.callmajor();
-		break;
-	case 5:
-		hand_right.callmajor();
-		break;
-	case 6:
-		spawner_right.callmajor();
-		//hands move out of the way for the drone pattern.
-		hand_right.moveup();
-		hand_left.moveup();
-		break;
-	default:
-}
-alarm_set(0,-1); // ?
+alarm_set(0,-1);

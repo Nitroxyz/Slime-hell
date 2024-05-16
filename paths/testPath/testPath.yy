@@ -1,0 +1,15 @@
+{
+  "$GMPath":"",
+  "%Name":"testPath",
+  "closed":false,
+  "kind":0,
+  "name":"testPath",
+  "parent":{
+    "name":"MissilePaths",
+    "path":"folders/Paths/BossPaths/MissilePaths.yy",
+  },
+  "points":[],
+  "precision":4,
+  "resourceType":"GMPath",
+  "resourceVersion":"2.0",
+}

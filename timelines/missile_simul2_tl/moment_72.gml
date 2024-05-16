@@ -1,0 +1,1 @@
+fly_missile1.bigpew(20, path_action_continue, false);

@@ -1,0 +1,26 @@
+{
+  "$GMTimeline":"",
+  "%Name":"missile_major_tl",
+  "momentList":[
+    {"$GMMoment":"","%Name":"","evnt":{"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},"moment":0,"name":"","resourceType":"GMMoment","resourceVersion":"2.0",},
+    {"$GMMoment":"","%Name":"","evnt":{"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":12,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},"moment":12,"name":"","resourceType":"GMMoment","resourceVersion":"2.0",},
+    {"$GMMoment":"","%Name":"","evnt":{"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":24,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},"moment":24,"name":"","resourceType":"GMMoment","resourceVersion":"2.0",},
+    {"$GMMoment":"","%Name":"","evnt":{"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":36,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},"moment":36,"name":"","resourceType":"GMMoment","resourceVersion":"2.0",},
+    {"$GMMoment":"","%Name":"","evnt":{"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":48,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},"moment":48,"name":"","resourceType":"GMMoment","resourceVersion":"2.0",},
+    {"$GMMoment":"","%Name":"","evnt":{"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":60,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},"moment":60,"name":"","resourceType":"GMMoment","resourceVersion":"2.0",},
+    {"$GMMoment":"","%Name":"","evnt":{"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":72,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},"moment":72,"name":"","resourceType":"GMMoment","resourceVersion":"2.0",},
+    {"$GMMoment":"","%Name":"","evnt":{"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":84,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},"moment":84,"name":"","resourceType":"GMMoment","resourceVersion":"2.0",},
+    {"$GMMoment":"","%Name":"","evnt":{"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":96,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},"moment":96,"name":"","resourceType":"GMMoment","resourceVersion":"2.0",},
+    {"$GMMoment":"","%Name":"","evnt":{"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":108,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},"moment":108,"name":"","resourceType":"GMMoment","resourceVersion":"2.0",},
+    {"$GMMoment":"","%Name":"","evnt":{"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":120,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},"moment":120,"name":"","resourceType":"GMMoment","resourceVersion":"2.0",},
+    {"$GMMoment":"","%Name":"","evnt":{"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":132,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},"moment":132,"name":"","resourceType":"GMMoment","resourceVersion":"2.0",},
+    {"$GMMoment":"","%Name":"","evnt":{"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":750,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},"moment":750,"name":"","resourceType":"GMMoment","resourceVersion":"2.0",},
+  ],
+  "name":"missile_major_tl",
+  "parent":{
+    "name":"Majors",
+    "path":"folders/Timelines/Boss/Attacks/Majors.yy",
+  },
+  "resourceType":"GMTimeline",
+  "resourceVersion":"2.0",
+}

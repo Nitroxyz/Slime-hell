@@ -6,7 +6,7 @@
   "name":"returnPath4",
   "parent":{
     "name":"DronePaths",
-    "path":"folders/Objects/BossObjects/paths/DronePaths.yy",
+    "path":"folders/Paths/BossPaths/DronePaths.yy",
   },
   "points":[
     {"speed":100.0,"x":0.0,"y":0.0,},

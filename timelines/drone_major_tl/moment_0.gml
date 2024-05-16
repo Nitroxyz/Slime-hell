@@ -14,11 +14,11 @@
 		path_mirror(spawnPath3);
 		path_mirror(spawnPath4);
 		path_mirror(spawnPath5);
-		drone5 = instance_create_layer(1260, 192, "Instances", drone);
+		drone5 = instance_create_layer(1260, 192, "BossLayer", drone);
 		drone5.startpath(spawnPath5, 8, path_action_stop, false);
 	
 	}
 	else {
-	drone5 = instance_create_layer(660, 192, "Instances", drone);
+	drone5 = instance_create_layer(660, 192, "BossLayer", drone);
 	drone5.startpath(spawnPath5, 8, path_action_stop, false);
 	}
