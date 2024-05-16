@@ -1,4 +1,5 @@
 /// @description Insert description here
+damage_dealing_state = true;
 pewtimer = 0;
 pewpewable = false;
 //This is used to make a drone instance start following a path directly from a timeline or controller.

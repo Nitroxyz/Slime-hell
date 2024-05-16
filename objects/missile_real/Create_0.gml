@@ -1,7 +1,10 @@
 //missiles will either be in homing or pewing mode, with each having different properties (no, this can't just be one variable)
-if (instance_exists(bob)) {
+damage_dealing_state = true;
 homing = false;
 pewing = false;
+
+if (instance_exists(bob)) {
+
 
 
 //default target
@@ -26,6 +29,7 @@ startpath = function(path,spd,ending,isAbsolute) {
 
 //similar to bullet pewpew but with the target already set
 bigpew = function(spd,ending,isAbsolute) {
+	if (instance_exists(bob)) {
 		pewpath = path_add();
 		image_angle = point_direction(x, y, target.x, target.y);
 		path_set_closed(pewpath,false);
@@ -43,6 +47,6 @@ bigpew = function(spd,ending,isAbsolute) {
 		timeline_speed = 1;
 		timeline_position = 0;
 		timeline_loop = false;
-		
+	}
 		
 }

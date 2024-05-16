@@ -4,8 +4,8 @@
 length_x = 12;
 length_y = 6
 // Start value of grid (Top left)
-start_x = 500;
-start_y = 500
+start_x = -5000000;
+start_y = -5000000
 // Distance between panels
 panel_distance = 80;
 

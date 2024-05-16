@@ -1,1 +1,1 @@
-fly_missile3.bigpew(20, path_action_continue, false);
+simul2pew(fly_missile3);

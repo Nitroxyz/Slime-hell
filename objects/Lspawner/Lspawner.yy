@@ -34,8 +34,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_left_dronebox",
-    "path":"sprites/spr_left_dronebox/spr_left_dronebox.yy",
+    "name":"spr_DroneboxL",
+    "path":"sprites/spr_DroneboxL/spr_DroneboxL.yy",
   },
   "spriteMaskId":null,
   "visible":true,

@@ -12,7 +12,10 @@
     "name":"Attack objects",
     "path":"folders/Objects/BossObjects/Attack objects.yy",
   },
-  "parentObjectId":null,
+  "parentObjectId":{
+    "name":"daddy_noneya_projectile",
+    "path":"objects/daddy_noneya_projectile/daddy_noneya_projectile.yy",
+  },
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
@@ -26,9 +29,7 @@
   "physicsShape":1,
   "physicsShapePoints":[],
   "physicsStartAwake":true,
-  "properties":[
-    {"$GMObjectProperty":"v1","%Name":"hominh","filters":[],"listItems":[],"multiselect":false,"name":"hominh","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"0","varType":3,},
-  ],
+  "properties":[],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,

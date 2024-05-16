@@ -6,7 +6,7 @@ startpath = function(,spd,ending,isAbsolute) {
 	path_start(path,spd,ending,isAbsolute);
 }
 */
-
+damage_dealing_state = true;
 pewpew = function(target,spd,ending,isAbsolute) {
 		var pewpath = path_add();
 		path_set_closed(pewpath,false);

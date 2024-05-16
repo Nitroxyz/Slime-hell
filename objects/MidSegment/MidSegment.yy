@@ -33,8 +33,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_mid_segment",
-    "path":"sprites/spr_mid_segment/spr_mid_segment.yy",
+    "name":"spr_Body",
+    "path":"sprites/spr_Body/spr_Body.yy",
   },
   "spriteMaskId":null,
   "visible":true,

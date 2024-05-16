@@ -46,5 +46,5 @@ if(homing == true) {
 		instance_destroy();	
 		}
 	}
-} else
-instance_destroy();
+} 
+
