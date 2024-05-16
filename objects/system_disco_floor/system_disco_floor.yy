@@ -1,20 +1,17 @@
 {
   "$GMObject":"",
-  "%Name":"ice_trail",
+  "%Name":"system_disco_floor",
   "eventList":[
     {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"ice_trail",
+  "name":"system_disco_floor",
   "overriddenProperties":[],
   "parent":{
-    "name":"Bob",
-    "path":"folders/Objects/Bob.yy",
+    "name":"System",
+    "path":"folders/Objects/System.yy",
   },
-  "parentObjectId":{
-    "name":"daddy_noneya_trail",
-    "path":"objects/daddy_noneya_trail/daddy_noneya_trail.yy",
-  },
+  "parentObjectId":null,
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
@@ -28,14 +25,14 @@
   "physicsShape":1,
   "physicsShapePoints":[],
   "physicsStartAwake":true,
-  "properties":[],
+  "properties":[
+    {"$GMObjectProperty":"v1","%Name":"length_x","filters":[],"listItems":[],"multiselect":false,"name":"length_x","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"0","varType":0,},
+    {"$GMObjectProperty":"v1","%Name":"length_y","filters":[],"listItems":[],"multiselect":false,"name":"length_y","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"0","varType":0,},
+  ],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":{
-    "name":"spr_ice_trail_1",
-    "path":"sprites/spr_ice_trail_1/spr_ice_trail_1.yy",
-  },
+  "spriteId":null,
   "spriteMaskId":null,
   "visible":true,
 }

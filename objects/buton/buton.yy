@@ -1,20 +1,18 @@
 {
   "$GMObject":"",
-  "%Name":"ice_trail",
+  "%Name":"buton",
   "eventList":[
-    {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":4,"eventType":6,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"ice_trail",
+  "name":"buton",
   "overriddenProperties":[],
   "parent":{
-    "name":"Bob",
-    "path":"folders/Objects/Bob.yy",
+    "name":"Objects",
+    "path":"folders/Objects.yy",
   },
-  "parentObjectId":{
-    "name":"daddy_noneya_trail",
-    "path":"objects/daddy_noneya_trail/daddy_noneya_trail.yy",
-  },
+  "parentObjectId":null,
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
@@ -33,8 +31,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_ice_trail_1",
-    "path":"sprites/spr_ice_trail_1/spr_ice_trail_1.yy",
+    "name":"spr_start",
+    "path":"sprites/spr_start/spr_start.yy",
   },
   "spriteMaskId":null,
   "visible":true,

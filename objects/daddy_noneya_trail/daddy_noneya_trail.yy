@@ -6,8 +6,8 @@
   "name":"daddy_noneya_trail",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"Parents",
+    "path":"folders/Objects/Parents.yy",
   },
   "parentObjectId":{
     "name":"daddy_noneya_collision",

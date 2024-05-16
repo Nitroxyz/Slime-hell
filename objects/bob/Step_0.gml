@@ -55,6 +55,9 @@ if(dashing){
 	//	instance_create_layer(x + i*xspd/50, y + i*yspd/50, "SlimeTrailFire", fire_trail);
 	//}
 	instance_create_layer(x, y, "SlimeTrailFire", fire_trail);
+	xspd = lengthdir_x(dash_distance/18, direction);
+	yspd = lengthdir_y(dash_distance/18, direction);
+	instance_create_layer(x + xspd/2, y + yspd/2, "SlimeTrailFire", fire_trail);
 	dash_step++;
 }
 if(dash_step > 18){
@@ -64,12 +67,13 @@ if(dash_step > 18){
 
 // Freezing
 #region
-if(freeze_key and !move_lock){
+if(freeze_key and !move_lock and freeze_full){
 	freeze();
 }
 #endregion
 
 //Animation
+#region
 if(dashing){
 	sprite_index = spr_hot;
 } else {
@@ -82,6 +86,7 @@ if(dashing){
 if(hspeed != 0){
 	image_xscale = sign(hspeed);
 }
+#endregion
 
 //Taking damage
 #region
@@ -125,7 +130,7 @@ if(place_meeting(x, y, ice_trail) and !freezing){
 		freeze_meter--;
 	}
 } else {
-	freeze_meter += 4;
+	freeze_meter += f_d;
 }
 freeze_meter = clamp(freeze_meter, 0, freeze_max);
 if(freeze_meter = 0){
