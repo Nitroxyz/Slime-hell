@@ -55,6 +55,9 @@ if(dashing){
 	//	instance_create_layer(x + i*xspd/50, y + i*yspd/50, "SlimeTrailFire", fire_trail);
 	//}
 	instance_create_layer(x, y, "SlimeTrailFire", fire_trail);
+	xspd = lengthdir_x(dash_distance/18, direction);
+	yspd = lengthdir_y(dash_distance/18, direction);
+	instance_create_layer(x + xspd/2, y + yspd/2, "SlimeTrailFire", fire_trail);
 	dash_step++;
 }
 if(dash_step > 18){
