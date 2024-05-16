@@ -5,8 +5,10 @@ draw_set_colour(c_black);
 draw_rectangle(0, 0, screen_width, screen_height, false);
 draw_set_color(c_white);
 gpu_set_blendmode(bm_subtract);
+//Do your draws
 with(bob){
 	draw_self();
+	draw_circle(x, y, 100, false);
 }
 with(mr_freeze){
 	draw_self();
