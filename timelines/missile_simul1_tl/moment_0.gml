@@ -1,5 +1,7 @@
 ///@desc sets up grid and spawns 1st missile
 	//creates the grid the attack uses to place the missiles
+	
+if(instance_exists(bob)) {
 	tile_grid = instance_create_layer(bob.x, bob.y, "BossLayer", missile_grid_object);
 
 
@@ -22,9 +24,8 @@
 	//8 missiles are spawned, so 8 moments
 	
 		//selects a random remaining tile.
-		//since all the moments have the same number of steps between them, timeline_position/step spacing (currently 2) gives the number of missiles spawned.
-		var randtile = irandom(15 - (timeline_position/2));
 		
+		var randtile = irandom(array_length(tile_centers) - 1);
 		
 		//only spawns objects if the missile would fall within the bounds of the screen
 		if(tile_grid.x + tile_centers[randtile][0] > 0 && tile_grid.x + tile_centers[randtile][0] < 1920 && tile_grid.y + tile_centers[randtile][1] > 0 && tile_grid.y + tile_centers[randtile][1] < 1080) {
@@ -37,6 +38,10 @@
 		gridMissile1  = instance_create_layer(tile_grid.x + tile_centers[randtile][0], tile_grid.y + tile_centers[randtile][1] - 1080, "Projectiles", missile_incorporeal);
 		gridMissile1.startpath(fallingPath, 36, path_action_stop, false, 60);
 		}
+		
 		//removes the used tile from the array, allowing the randomizer to select from the remaining tiles
 		array_delete(tile_centers, randtile,1);
+} else {
+		timeline_position = 134;
+}
 	

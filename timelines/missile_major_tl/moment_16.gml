@@ -1,1 +1,0 @@
-instance_create_layer(x, y + 64, "Projectiles", missile_homing_test);

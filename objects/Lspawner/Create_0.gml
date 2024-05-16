@@ -22,11 +22,6 @@ callmajor = function() {
 
 callsimul =  function() {
 	
-	///TODO:
-	//getting this attack twice at the same time is way too hard to dodge
-	//I think i'll limit the range of the drone's travel angle to it's side of the screen
-	
-	//make drones stop shooting an extra time once off the screen.
 	
 	show_debug_message("Lspawner is simulling all over the place");
 	//The standard simul starting routine.

@@ -7,7 +7,10 @@ major_segment = -1;
 
 
 //Alarm 0 is the timer for the next major to start after the prev major ends.
-alarm_set(0,120);
+
+
+//alarm_set(0,120);
+pause_simul = true;
 
 //spawning head
 head_segment = instance_create_layer(960, 224, "BossLayer", MidSegment);
@@ -86,7 +89,7 @@ countsimuls = function() {
 	if(!pause_simul) {
 	//then it uses whether or not a major is going on to determine whether or not the maximum number of simuls are already playing
 		if(ongoing_major == true) {
-			if(num_simul < 2) {
+			if(num_simul < 3) {
 				//if everything is good to go, start the simul.
 				startsimul();
 			}

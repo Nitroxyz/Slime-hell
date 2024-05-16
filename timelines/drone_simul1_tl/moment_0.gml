@@ -7,4 +7,4 @@
 	}
 	
 	simul1_drone.startpath(drone_simul1_path, 8, path_action_stop, false);
-	simul1_drone.pewpewable = true;
+	

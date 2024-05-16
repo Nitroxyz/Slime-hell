@@ -1,7 +1,10 @@
 {
   "$GMObject":"",
   "%Name":"missile_warning",
-  "eventList":[],
+  "eventList":[
+    {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+  ],
   "managed":true,
   "name":"missile_warning",
   "overriddenProperties":[],
@@ -31,8 +34,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"xmarksthespot",
-    "path":"sprites/xmarksthespot/xmarksthespot.yy",
+    "name":"WATCHOUT",
+    "path":"sprites/WATCHOUT/WATCHOUT.yy",
   },
   "spriteMaskId":null,
   "visible":true,
