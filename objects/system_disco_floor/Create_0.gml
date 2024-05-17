@@ -9,7 +9,6 @@ start_y = -5000000
 // Distance between panels
 panel_distance = 80;
 
-
 floor_colors = {
 	red : 0,
 	blue : 1,
