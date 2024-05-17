@@ -5,13 +5,15 @@ left_side = true;
 
 callmajor = function() {
 
-
+	
 	//starts the major, setting is_major to true
 	is_major = true;
 	
 	//true if the right spawner is doing the attack.
 	BossCTRL.path_flipped = false;
+
 	
+
 	
 	timeline_index = drone_major_tl
 	timeline_running = true;

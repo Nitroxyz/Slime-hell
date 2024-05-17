@@ -1,16 +1,22 @@
 //randomizes the randomness
 randomize();
 
-simuls_init = false
+simuls_init = false;
 //-1 by default, otherwise set to whichever segment is currently doing the thing.
 major_segment = -1;
 
+//things for the missile major
+remaining_missiles = 0;
+alarm_set(1,-1);
+
+
 
 //Alarm 0 is the timer for the next major to start after the prev major ends.
-
-
 alarm_set(0,120);
 //pause_simul = true;
+
+
+
 
 //spawning head
 head_segment = instance_create_layer(960, 224, "BossLayer", MidSegment);
@@ -80,11 +86,13 @@ countsimuls = function() {
 	num_simul = missile_left.is_simul + missile_right.is_simul + spawner_right.is_simul + spawner_left.is_simul + hand_left.is_simul + hand_right.is_simul + head_segment.is_simul;
 	//show_debug_message(num_simul);
 	
+	active_segments = ( missile_left.state < 2) + (missile_right.state < 2) + (spawner_right.state < 2) + (spawner_left.state < 2) + (hand_left.state < 2) + (hand_right.state < 2) + (head_segment.state < 2);
+	
 	//then it determines whether or not a major is happening
 	ongoing_major = (0 < missile_left.is_major + missile_right.is_major + spawner_right.is_major + spawner_left.is_major + hand_left.is_major + hand_right.is_major + head_segment.is_major);
 	
 	//override for other simul checks
-	//simuls wont be able to start while a major or event is waiting to start
+	//simuls wont be able to start while an event is waiting to start or ongoing
 	//--- VERY IMPORTANT --- make sure to call countsimuls after unpausing, otherwise you may create a situation where simuls will stop playing forever.
 	if(!pause_simul) {
 	//then it uses whether or not a major is going on to determine whether or not the maximum number of simuls are already playing

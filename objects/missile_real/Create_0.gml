@@ -2,6 +2,8 @@
 damage_dealing_state = true;
 homing = false;
 pewing = false;
+major_missile = false;
+recalibrating = false;
 
 if (instance_exists(bob)) {
 
@@ -13,8 +15,6 @@ target = bob;
 
 image_angle = point_direction(x, y, target.x, target.y);
 direction = point_direction(x, y, target.x, target.y);
-
-delete_timer = 0;
 
 turn_boost = 1;
 }

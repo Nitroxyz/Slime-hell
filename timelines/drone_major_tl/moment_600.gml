@@ -64,4 +64,5 @@
 		
 	}
 	//finally, make the drones start returning
+	if(instance_exists(drone1))
 	drone1.startpath(spawnPath1,8,path_action_stop,false);
