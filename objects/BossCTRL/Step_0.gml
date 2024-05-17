@@ -13,3 +13,26 @@ else if(init_timer < 120) {
 }
 
 //add a failsafe?
+
+// Setup a proper pause_simul
+#region
+//Shuts down all the timelines (reset when unpaused)
+if(change_pause_simul){
+	pause_simul = !pause_simul
+	if(pause_simul){
+		with(segment_parent){
+			pause();
+		}
+	} else {
+		with(segment_parent){
+			unpause();
+		}
+	}
+	change_pause_simul = false;
+}
+// Pauses the alarms
+if(pause_simul){
+	alarm[0]++;
+	alarm[1]++;
+}
+#endregion

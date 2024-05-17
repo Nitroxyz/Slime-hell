@@ -1,6 +1,11 @@
 //randomizes the randomness
 randomize();
 
+// Don't change! allows for the change of pause to be checked
+pause_simul = false;
+// Setting this to true initiates a pause
+change_pause_simul = false;
+
 simuls_init = false;
 //-1 by default, otherwise set to whichever segment is currently doing the thing.
 major_segment = -1;
@@ -13,7 +18,6 @@ alarm_set(1,-1);
 
 //Alarm 0 is the timer for the next major to start after the prev major ends.
 alarm_set(0,120);
-//pause_simul = true;
 
 
 
@@ -109,8 +113,6 @@ countsimuls = function() {
 	}
 
 }
-
-
 
 
 

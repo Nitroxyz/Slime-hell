@@ -32,6 +32,7 @@
     {"$GMObjectProperty":"v1","%Name":"left_side","filters":[],"listItems":[],"multiselect":false,"name":"left_side","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"0","varType":3,},
     {"$GMObjectProperty":"v1","%Name":"callmajor","filters":[],"listItems":[],"multiselect":false,"name":"callmajor","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"0","varType":4,},
     {"$GMObjectProperty":"v1","%Name":"callsimul","filters":[],"listItems":[],"multiselect":false,"name":"callsimul","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"0","varType":0,},
+    {"$GMObjectProperty":"v1","%Name":"timeline_active","filters":[],"listItems":[],"multiselect":false,"name":"timeline_active","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"0","varType":3,},
   ],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
