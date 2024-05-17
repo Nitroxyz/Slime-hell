@@ -6,11 +6,13 @@
 		//objects are spawned on the location determined by finding the center of the grid, then adding the location of the tile (from the array). 
 		//spawns the X
 		
-		instance_create_layer(tile_grid.x + tile_centers[randtile][0], tile_grid.y + tile_centers[randtile][1], "BossLayer", missile_warning);
+		var warning = instance_create_layer(tile_grid.x + tile_centers[randtile][0], tile_grid.y + tile_centers[randtile][1], "BossLayer", missile_warning);
 		
 		//Spawns the missile, then starts it on the path
 		gridMissile2  = instance_create_layer(tile_grid.x + tile_centers[randtile][0], tile_grid.y + tile_centers[randtile][1] - 1080, "Projectiles", missile_incorporeal);
 		gridMissile2.startpath(fallingPath, 36, path_action_stop, false, 60);
+		gridMissile1.warning_x = warning.x;
+		gridMissile1.warning_y = warning.y;
 		}
 		
 		//removes the used tile from the array, allowing the randomizer to select from the remaining tiles

@@ -1,7 +1,15 @@
 {
   "FolderOrderSettings":[],
   "ResourceOrderSettings":[
+    {"name":"laser_attack","order":2,"path":"objects/laser_attack/laser_attack.yy",},
+    {"name":"laser_warning","order":1,"path":"objects/laser_warning/laser_warning.yy",},
+    {"name":"missile_explosion","order":3,"path":"objects/missile_explosion/missile_explosion.yy",},
+    {"name":"body_scripts","order":2,"path":"scripts/body_scripts/body_scripts.yy",},
     {"name":"drone_scripts","order":1,"path":"scripts/drone_scripts/drone_scripts.yy",},
     {"name":"spr_Body","order":1,"path":"sprites/spr_Body/spr_Body.yy",},
+    {"name":"spr_laser_square","order":2,"path":"sprites/spr_laser_square/spr_laser_square.yy",},
+    {"name":"spr_Lexplosion","order":1,"path":"sprites/spr_Lexplosion/spr_Lexplosion.yy",},
+    {"name":"spr_watchoutBIIG","order":1,"path":"sprites/spr_watchoutBIIG/spr_watchoutBIIG.yy",},
+    {"name":"body_simul1_tl","order":1,"path":"timelines/body_simul1_tl/body_simul1_tl.yy",},
   ],
 }

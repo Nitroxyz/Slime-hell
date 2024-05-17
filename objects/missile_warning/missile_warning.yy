@@ -34,8 +34,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"WATCHOUT",
-    "path":"sprites/WATCHOUT/WATCHOUT.yy",
+    "name":"spr_WATCHOUT",
+    "path":"sprites/spr_WATCHOUT/spr_WATCHOUT.yy",
   },
   "spriteMaskId":null,
   "visible":true,

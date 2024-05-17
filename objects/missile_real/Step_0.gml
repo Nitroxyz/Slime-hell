@@ -8,9 +8,9 @@ if(homing == true) {
 
 
 	
-	speed = 12;
+	speed = 8;
 	
-	//there is a 4 degree window of facing directly towards the player where it won't turn
+	//there is a 4 degree window of facing directly towards the player where it turns MUCH slower
 	if(facing_dif > 2) {
 		image_angle += 0.75 * turn_boost;
 		direction += 0.75 * turn_boost;
@@ -18,7 +18,11 @@ if(homing == true) {
 		image_angle -= 0.75 * turn_boost;
 		direction -= 0.75 * turn_boost;	
 	}
+	else {
+		image_angle += facing_dif * 0.1;
+	}
 	
+	//I think I'll just increase the time between spawns
 	
 }
 
@@ -32,7 +36,7 @@ if(homing == true) {
 		
 	}
 	//all missiles are now deleted once they go offscreen
-	if(x > 2080 || x < -100 || y < -100 || y > 1180) {
+	if(x > 2030 || x < -50 || y < -50 || y > 1130) {
 		instance_destroy();	
 		
 		if(pewing == true)

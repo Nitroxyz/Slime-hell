@@ -4,7 +4,7 @@
 var init_timer = 0;
 
 //calling the first simul
-if(simuls_init == false && init_timer < 120) {
+if(simuls_init == false && init_timer < 240) {
 countsimuls();
 simuls_init = true;
 }
