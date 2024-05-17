@@ -1,5 +1,11 @@
 //Key detection system
 #region
+var key_left;
+var key_right;
+var key_up;
+var key_down;
+var freeze_key;
+var dash_key;
 if(!move_lock){
 	key_left = keyboard_check( ord("K") );
 	key_right = keyboard_check( 192 );
@@ -38,6 +44,19 @@ input_level = clamp(input_level, 0, 1);
 speed = max_spedd * input_level;
 } else {
 	speed = 0;
+}
+//Prevent going off the screen
+if(x + hspeed > room_width){
+	hspeed = room_width - x;
+}
+if(x + hspeed < 0){
+	hspeed = 0 - x;
+}
+if(y + vspeed > room_height){
+	vspeed = room_height - y;
+}
+if(y + vspeed < 0){
+	vspeed = 0 - y;
 }
 #endregion
 
