@@ -18,8 +18,6 @@ if(!move_lock){
 	key_up = key_up || keyboard_check( ord("W") );
 	key_down = key_down || keyboard_check( ord("S") );
 
-	//shoot_key = mouse_check_button(mb_left);
-	//tap_key = mouse_check_button_pressed(mb_left);
 	//dash_key = mouse_check_button_pressed(mb_right);
 	freeze_key = keyboard_check_pressed(vk_shift);
 	//Dash buffer
