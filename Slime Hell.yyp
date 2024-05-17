@@ -107,6 +107,7 @@
     {"id":{"name":"testPath","path":"paths/testPath/testPath.yy",},},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
     {"id":{"name":"Room2","path":"rooms/Room2/Room2.yy",},},
+    {"id":{"name":"drone_scripts","path":"scripts/drone_scripts/drone_scripts.yy",},},
     {"id":{"name":"missile_scripts","path":"scripts/missile_scripts/missile_scripts.yy",},},
     {"id":{"name":"ChargeCircle","path":"sprites/ChargeCircle/ChargeCircle.yy",},},
     {"id":{"name":"drone_sprite","path":"sprites/drone_sprite/drone_sprite.yy",},},

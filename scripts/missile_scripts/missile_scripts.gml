@@ -5,6 +5,7 @@ function majorhoming() {
 	//homing_missile.homing = true;
 	with(homing_missile){
 		homing = true;
+		major_missile = true;
 	}
 }
 

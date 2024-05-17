@@ -1,6 +1,7 @@
 {
   "FolderOrderSettings":[],
   "ResourceOrderSettings":[
+    {"name":"drone_scripts","order":1,"path":"scripts/drone_scripts/drone_scripts.yy",},
     {"name":"spr_Body","order":1,"path":"sprites/spr_Body/spr_Body.yy",},
   ],
 }

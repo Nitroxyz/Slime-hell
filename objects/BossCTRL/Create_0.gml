@@ -5,12 +5,18 @@ simuls_init = false
 //-1 by default, otherwise set to whichever segment is currently doing the thing.
 major_segment = -1;
 
+//things for the missile major
+remaining_missiles = 0;
+alarm_set(1,-1);
+
+
 
 //Alarm 0 is the timer for the next major to start after the prev major ends.
-
-
 alarm_set(0,120);
 //pause_simul = true;
+
+
+
 
 //spawning head
 head_segment = instance_create_layer(960, 224, "BossLayer", MidSegment);

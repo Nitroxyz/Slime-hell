@@ -5,11 +5,11 @@
 	//temporary
 	switch(irandom(3)) {
 	case 0:
-		major_segment = 3;
+		major_segment = 1;
 		break;
 	
 	case 1:
-		major_segment = 6;	
+		major_segment = 4;	
 		break;
 		
 	case 2:
@@ -43,6 +43,7 @@ major_segment = irandom_range(0, BossCTRL.remaining_segments);
 		case 1:
 			major_segment_name = missile_left;
 			missile_left.is_major = true;
+			remaining_missiles = 12;
 			break;
 		case 2:
 			major_segment_name = hand_left ;
@@ -58,7 +59,7 @@ major_segment = irandom_range(0, BossCTRL.remaining_segments);
 		case 4:
 			major_segment_name = missile_right;
 			missile_right.is_major = true;
-			
+			remaining_missiles = 12;
 			
 			break;
 		case 5:

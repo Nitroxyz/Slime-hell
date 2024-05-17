@@ -5,6 +5,12 @@ left_side = true;
 callmajor = function() {
 	is_major = true;
 	
+	with(BossCTRL) {
+		//the total duration of the major will be controlled with a seperate alarm, since the timeline will be reset whenever new missiles need to be spawned.
+		alarm_set(1,750);
+	}
+	
+	
 	timeline_index = missile_major_tl;
 	timeline_running = true;
 	timeline_speed = 1;
