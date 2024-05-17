@@ -6,6 +6,7 @@ var key_up;
 var key_down;
 var freeze_key;
 var dash_key;
+var left_hold;
 if(!move_lock){
 	key_left = keyboard_check( ord("K") );
 	key_right = keyboard_check( 192 );
@@ -17,6 +18,8 @@ if(!move_lock){
 	key_right = key_right || keyboard_check( ord("D") );
 	key_up = key_up || keyboard_check( ord("W") );
 	key_down = key_down || keyboard_check( ord("S") );
+	
+	left_hold = mouse_check_button(mb_left);
 
 	//dash_key = mouse_check_button_pressed(mb_right);
 	freeze_key = keyboard_check_pressed(vk_shift);
@@ -31,15 +34,19 @@ if(!move_lock){
 // Movement
 #region
 if(!move_lock){
-//direction calculation
-var move_h = key_right - key_left;
-var move_v = key_down - key_up;
-direction = point_direction(0, 0, move_h, move_v);
+	//direction calculation
+	var move_h = key_right - key_left;
+	var move_v = key_down - key_up;
+	direction = point_direction(0, 0, move_h, move_v);
 
-// get the x/y speeds
-var input_level = point_distance(0, 0, move_h, move_v);
-input_level = clamp(input_level, 0, 1);
-speed = max_spedd * input_level;
+	// get the x/y speeds
+	var input_level = point_distance(0, 0, move_h, move_v);
+	input_level = clamp(input_level, 0, 1);
+	speed = max_spedd * input_level;
+	if(left_hold){
+		move_towards_point(mouse_x, mouse_y, max_spedd);
+		speed = clamp(speed, point_distance(x, y, mouse_x, mouse_y), max_spedd);
+	}
 } else {
 	speed = 0;
 }
@@ -72,8 +79,8 @@ if(dashing){
 	//	instance_create_layer(x + i*xspd/50, y + i*yspd/50, "SlimeTrailFire", fire_trail);
 	//}
 	instance_create_layer(x, y, "SlimeTrailFire", fire_trail);
-	xspd = lengthdir_x(dash_distance/18, direction);
-	yspd = lengthdir_y(dash_distance/18, direction);
+	var xspd = lengthdir_x(dash_distance/18, direction);
+	var yspd = lengthdir_y(dash_distance/18, direction);
 	instance_create_layer(x + xspd/2, y + yspd/2, "SlimeTrailFire", fire_trail);
 	dash_step++;
 }
