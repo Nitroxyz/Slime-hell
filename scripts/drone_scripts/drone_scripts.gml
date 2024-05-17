@@ -2,6 +2,7 @@
 // https://help.yoyogames.com/hc/en-us/articles/360005277377 for more information
 
 //Doesnt work yet!
+// Are any of the paths from an object?
 function drone_major1(){
 	if(BossCTRL.path_flipped) {
 		drone5 = instance_create_layer(1260, 192, "BossLayer", drone);
@@ -15,10 +16,11 @@ function drone_major1(){
 }
 
 // Doesnt work yet!
-function drone_major2(){
+function drone_major2(t_drone){
 	//finally, make the drones start returning
-	if(instance_exists(drone1))
-	with(drone1){
-		startpath(spawnPath1,8,path_action_stop,false);
+	if(instance_exists(t_drone)){
+		with(t_drone){
+			startpath(spawnPath1,8,path_action_stop,false);
+		}
 	}
 }

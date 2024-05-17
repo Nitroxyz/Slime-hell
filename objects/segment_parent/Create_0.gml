@@ -9,3 +9,9 @@ remaining_segments = 6;
 
 //the is major of the specific segment that is doing a major will be set to true during the major
 is_major = false;
+
+callmajor = function(){
+}
+
+callsimul = function(){
+}
