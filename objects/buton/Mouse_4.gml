@@ -1,4 +1,2 @@
-/// @description Insert description here
-// You can write your code in this editor
-
+/// @description Start the vanish
 image_index = 1;

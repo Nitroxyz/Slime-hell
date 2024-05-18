@@ -33,8 +33,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_HandL",
-    "path":"sprites/spr_HandL/spr_HandL.yy",
+    "name":"spr_left_hand",
+    "path":"sprites/spr_left_hand/spr_left_hand.yy",
   },
   "spriteMaskId":null,
   "visible":true,

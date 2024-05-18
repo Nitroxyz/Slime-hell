@@ -34,8 +34,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_fire_trail",
-    "path":"sprites/spr_fire_trail/spr_fire_trail.yy",
+    "name":"spr_fire_trail_cuttent",
+    "path":"sprites/spr_fire_trail_cuttent/spr_fire_trail_cuttent.yy",
   },
   "spriteMaskId":null,
   "visible":true,

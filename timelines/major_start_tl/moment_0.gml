@@ -13,11 +13,11 @@
 		break;
 		
 	case 2:
-		major_segment = 1;
+		major_segment = 3;
 		break
 		
 	case 3: 
-		major_segment = 4;
+		major_segment = 6;
 		break;
 	}
 //unimplemented for now
@@ -38,7 +38,6 @@ major_segment = irandom_range(0, BossCTRL.remaining_segments);
 		case 0:
 			major_segment_name = head_segment;
 			head_segment.is_major = true;
-			
 			break;
 		case 1:
 			major_segment_name = missile_left;

@@ -1,4 +1,4 @@
-/// @description Insert description here
+/// @description
 damage_dealing_state = true;
 pewtimer = 0;
 pewpewable = false;

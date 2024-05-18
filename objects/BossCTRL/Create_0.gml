@@ -35,8 +35,11 @@ alarm[2] = 240; // Simuls init
 #region
 
 //spawning head
-head_segment = instance_create_layer(960, 224, "BossLayer", MidSegment);
+head_segment = instance_create_layer(room_width/2, 224, "BossLayer", MidSegment);
 
+var spawner_xoffset = 33;
+var missle_xoffset = 33;
+var hand_offset = 33;
 //spawning left segments
 missile_left = instance_create_layer(512, 272, "BossLayer", Lcannon);
 spawner_left = instance_create_layer(660, 192, "BossLayer", Lspawner);

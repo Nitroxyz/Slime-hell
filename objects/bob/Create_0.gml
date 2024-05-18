@@ -7,7 +7,7 @@ max_spedd = 10;
 // Duration of a click buffer
 dash_buffer_time = 5;
 //Freeze fills up in x seconds
-f_f = 10;
+f_f = 5;
 //Freeze deplete x times slow than it fills
 f_d = 2;
 // Freeze meter must reach this to get maxed
@@ -76,6 +76,6 @@ freeze = function(){
 }
 
 dying = function(){
-	instance_destroy();
+	//instance_destroy();
 }
 #endregion

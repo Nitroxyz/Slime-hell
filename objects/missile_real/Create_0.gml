@@ -3,7 +3,6 @@ damage_dealing_state = true;
 homing = false;
 pewing = false;
 major_missile = false;
-recalibrating = false;
 
 if (instance_exists(bob)) {
 
