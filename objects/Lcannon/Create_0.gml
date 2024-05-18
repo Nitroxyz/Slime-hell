@@ -1,4 +1,4 @@
-event_inherited()
+event_inherited();
 
 left_side = true;
 
@@ -20,25 +20,29 @@ callmajor = function() {
 }
 
 callsimul =  function() {
-	show_debug_message("Lcannon is simulling all over the place");
+	show_debug_message("Lcannon is simulling all over the place"); // uwu
+	
 	//sets is_simul to true immediately
-	
-	
 	is_simul = true;
 	
-	BossCTRL.countsimuls()
+	// Selects the region attack
+	#region
+	var simul;
+	// however, if the mirror segment is already doing a simul, it will be overridden to the other one
+	// Checking for the other simul by checking what it's timeline index is set to
+	// if neither are true, uses the randomly generated number
+	switch(Rcannon.timeline_index){
+		case missile_simul1_tl:
+			simul = 2;
+			break;
+		case missile_simul2_tl:
+			simul = 1;
+			break;
+		default: // When it's empty
+			simul = choose(1, 2);
+	}
+	show_debug_message(simul);
 	
-	//by default, the simul will be chosen randomly
-	var simul = irandom(1) + 1;
-	//however, if the mirror segment is already doing a simul, it will be overridden to the other one
-	//Checking for the other simul by checking what it's timeline index is set to
-	if(Rcannon.timeline_index == missile_simul1_tl) {
-		simul = 2;
-	} else if(Rcannon.timeline_index == missile_simul2_tl) {
-		simul = 1;
-	} // if neither are true, uses the randomly generated number
-	
-
 	//now chooses the simul
 	switch(simul) {
 		case 1:
@@ -59,4 +63,5 @@ callsimul =  function() {
 			timeline_loop = false;
 			break;
 	}
+	#endregion
 }

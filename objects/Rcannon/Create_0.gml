@@ -19,19 +19,25 @@ callmajor = function() {
 }
 
 callsimul =  function() {
+	// :(
 	//sets is_simul to true immediately
 	is_simul = true;
-	//call countsimul
-	BossCTRL.countsimuls()
 	
-	//by default, the simul will be chosen randomly
-	var simul = irandom(1) + 1;
-	//however, if the mirror segment is already doing a simul, it will be overridden to the other one
-	//Checking for the other simul by checking what it's timeline index is set to
-	if(Rcannon.timeline_index == missile_simul1_tl) {
-		simul = 2;
-	} else if(Rcannon.timeline_index == missile_simul2_tl) {
-		simul = 1;
+	// Selects the region attack
+	#region
+	var simul;
+	// however, if the mirror segment is already doing a simul, it will be overridden to the other one
+	// Checking for the other simul by checking what it's timeline index is set to
+	// if neither are true, uses the randomly generated number
+	switch(Lcannon.timeline_index){
+		case missile_simul1_tl:
+			simul = 2;
+			break;
+		case missile_simul2_tl:
+			simul = 1;
+			break;
+		default: // When it's empty
+			simul = choose(1, 2);
 	}
 	
 		//now chooses the simul

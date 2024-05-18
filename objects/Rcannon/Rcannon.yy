@@ -13,8 +13,8 @@
     "path":"folders/Objects/BossObjects/Segments.yy",
   },
   "parentObjectId":{
-    "name":"segment_parent",
-    "path":"objects/segment_parent/segment_parent.yy",
+    "name":"daddy_noneya_segment",
+    "path":"objects/daddy_noneya_segment/daddy_noneya_segment.yy",
   },
   "persistent":false,
   "physicsAngularDamping":0.1,

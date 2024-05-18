@@ -23,12 +23,10 @@ callmajor = function() {
 }
 
 callsimul =  function() {
+	show_debug_message("Lspawner is simulling all over the place"); // owo
 	
-	
-	show_debug_message("Lspawner is simulling all over the place");
 	//The standard simul starting routine.
 	is_simul = true;
-	BossCTRL.countsimuls()
 	
 	//this is a short path that exits the spawn, I can use it as a shortcut to make the drone take a curved path out the spawn door
 	drone_simul1_path = path_duplicate(spawnPathShort);
