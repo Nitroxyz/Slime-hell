@@ -8,5 +8,5 @@
 	}
 	else {
 		major_segment_name.callmajor();	
-		show_debug_message("its majoring time")
+		show_debug_message("its majonging time")
 	}

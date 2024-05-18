@@ -9,10 +9,8 @@ callmajor = function() {
 callsimul =  function() {
 	
 	show_debug_message("MidSegment is simulling all over the place");
-	
+	//The standard simul starting routine.
 	is_simul = true;
-	BossCTRL.countsimuls()
-	
 	
 	timeline_index = body_simul1_tl;
 	timeline_running = true;

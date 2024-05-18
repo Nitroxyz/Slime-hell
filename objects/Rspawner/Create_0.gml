@@ -20,10 +20,9 @@ callmajor = function() {
 
 	
 callsimul =  function() {
-		show_debug_message("Rspawner is simulling all over the place");
+		show_debug_message("Rspawner is simulling all over the place"); // nya
 	//The standard simul starting routine.
 	is_simul = true;
-	BossCTRL.countsimuls()
 	
 	//drone simul will spawn a drone that will go to a certain location
 	//What is unique about this attack is where the drone travels too. 

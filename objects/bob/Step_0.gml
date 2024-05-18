@@ -7,28 +7,26 @@ var key_down;
 var freeze_key;
 var dash_key;
 var left_hold;
-if(!move_lock){
-	key_left = keyboard_check( ord("K") );
-	key_right = keyboard_check( 192 );
-	key_up = keyboard_check( ord("O") );
-	key_down = keyboard_check( ord("L") );
+key_left = keyboard_check( ord("K") );
+key_right = keyboard_check( 192 );
+key_up = keyboard_check( ord("O") );
+key_down = keyboard_check( ord("L") );
 	
-	// For others
-	key_left = key_left || keyboard_check( ord("A") );
-	key_right = key_right || keyboard_check( ord("D") );
-	key_up = key_up || keyboard_check( ord("W") );
-	key_down = key_down || keyboard_check( ord("S") );
+// For others
+key_left = key_left || keyboard_check( ord("A") );
+key_right = key_right || keyboard_check( ord("D") );
+key_up = key_up || keyboard_check( ord("W") );
+key_down = key_down || keyboard_check( ord("S") );
 	
-	left_hold = mouse_check_button(mb_left);
+left_hold = mouse_check_button(mb_left);
 
-	//dash_key = mouse_check_button_pressed(mb_right);
-	freeze_key = keyboard_check_pressed(vk_shift);
-	//Dash buffer
-	if(mouse_check_button_pressed(mb_right)){
-		dash_buffer = dash_buffer_time;
-	}
-	dash_key = dash_buffer > 0;
+//dash_key = mouse_check_button_pressed(mb_right);
+freeze_key = keyboard_check_pressed(vk_shift);
+//Dash buffer
+if(mouse_check_button_pressed(mb_right)){
+	dash_buffer = dash_buffer_time;
 }
+dash_key = (dash_buffer > 0);
 #endregion
 
 // Movement
