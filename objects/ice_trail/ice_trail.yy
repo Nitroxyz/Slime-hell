@@ -33,8 +33,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_ice_trail_1",
-    "path":"sprites/spr_ice_trail_1/spr_ice_trail_1.yy",
+    "name":"spr_ice_trail",
+    "path":"sprites/spr_ice_trail/spr_ice_trail.yy",
   },
   "spriteMaskId":null,
   "visible":true,

@@ -13,8 +13,8 @@
     "path":"folders/Objects/BossObjects/Attack objects.yy",
   },
   "parentObjectId":{
-    "name":"daddy_noneya_projectile",
-    "path":"objects/daddy_noneya_projectile/daddy_noneya_projectile.yy",
+    "name":"daddy_noneya_overhead",
+    "path":"objects/daddy_noneya_overhead/daddy_noneya_overhead.yy",
   },
   "persistent":false,
   "physicsAngularDamping":0.1,

@@ -44,8 +44,8 @@
   },
   "origin":4,
   "parent":{
-    "name":"LiesSprites",
-    "path":"folders/Sprites/LiesSprites.yy",
+    "name":"stills",
+    "path":"folders/Sprites/Boss/stills.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

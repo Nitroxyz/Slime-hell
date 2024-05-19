@@ -12,10 +12,7 @@
     "name":"Attack objects",
     "path":"folders/Objects/BossObjects/Attack objects.yy",
   },
-  "parentObjectId":{
-    "name":"missile_grid_object",
-    "path":"objects/missile_grid_object/missile_grid_object.yy",
-  },
+  "parentObjectId":null,
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
