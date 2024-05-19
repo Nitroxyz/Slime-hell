@@ -1,17 +1,16 @@
 {
   "$GMObject":"",
-  "%Name":"mr_dead",
+  "%Name":"he_dead",
   "eventList":[
-    {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":2,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":1,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"mr_dead",
+  "name":"he_dead",
   "overriddenProperties":[],
   "parent":{
-    "name":"Bob",
-    "path":"folders/Objects/Bob.yy",
+    "name":"UI",
+    "path":"folders/Objects/UI.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -31,10 +30,10 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":{
-    "name":"spr_mr_dead",
-    "path":"sprites/spr_mr_dead/spr_mr_dead.yy",
+  "spriteId":null,
+  "spriteMaskId":{
+    "name":"spr_he_dead",
+    "path":"sprites/spr_he_dead/spr_he_dead.yy",
   },
-  "spriteMaskId":null,
   "visible":true,
 }

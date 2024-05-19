@@ -1,6 +1,6 @@
 {
   "$GMObject":"",
-  "%Name":"system_pause",
+  "%Name":"system_pause_restart",
   "eventList":[
     {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":27,"eventType":9,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":80,"eventType":9,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
@@ -9,14 +9,14 @@
     {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":82,"eventType":9,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"system_pause",
+  "name":"system_pause_restart",
   "overriddenProperties":[],
   "parent":{
     "name":"System",
     "path":"folders/Objects/System.yy",
   },
   "parentObjectId":null,
-  "persistent":false,
+  "persistent":true,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
   "physicsFriction":0.2,

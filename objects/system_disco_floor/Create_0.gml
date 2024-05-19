@@ -9,8 +9,6 @@ start_y = 450;
 // Distance between panels
 panel_distance = 90;
 
-alarm[0] = 60;
-
 floor_colors = {
 	red : 0,
 	blue : 1,
@@ -19,14 +17,19 @@ floor_colors = {
 };
 
 panel_grid = ds_grid_create(length_x, length_y);
-for(var _x = 0; _x < length_x; _x++){
-	for(var _y = 0; _y < length_y; _y++){
-		var inst = instance_create_layer(start_x + panel_distance * _x, start_y + panel_distance * _y, "DiscoLayer", disco_panel);
-		with (inst){
-			image_index = random_range(0, 4);
-			image_alpha = 1;
+
+// Functions
+#region
+grid_init = function(){
+	for(var _x = 0; _x < length_x; _x++){
+		for(var _y = 0; _y < length_y; _y++){
+			var inst = instance_create_layer(start_x + panel_distance * _x, start_y + panel_distance * _y, "DiscoLayer", disco_panel);
+			with (inst){
+				image_index = random_range(0, 4);
+				image_alpha = 1;
+			}
+			ds_grid_set(panel_grid, _x, _y, inst);
 		}
-		ds_grid_set(panel_grid, _x, _y, inst);
 	}
 }
 
@@ -62,4 +65,10 @@ find_color = function(color){
 		}
 	}
 	return result;
+}
+#endregion
+
+if(room == Room1){
+	grid_init();
+	alarm[0] = 60;
 }

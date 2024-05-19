@@ -7,4 +7,4 @@ for(var _x = 0; _x < length_x; _x++){
 		change_color(_x, _y, random_color);
 	}
 }
-alarm[0] = 60
+alarm[0] = 60;
