@@ -70,22 +70,22 @@ if(dash_key and !dashing and !move_lock){
 }
 // Dash movement
 if(dashing){
-	move_towards_point(dash_x, dash_y, dash_distance/18);
+	move_towards_point(dash_x, dash_y, dash_distance/dash_max);
 	//xspd = lengthdir_x(dash_distance/18, direction);
 	//yspd = lengthdir_y(dash_distance/18, direction);
 	//for(var i = 0; i < dash_distance/18; i += 50){
 	//	instance_create_layer(x + i*xspd/50, y + i*yspd/50, "SlimeTrailFire", fire_trail);
 	//}
 	instance_create_layer(x, y, "SlimeTrailFire", fire_trail);
-	if(dash_step < 19){
-		var xspd = lengthdir_x(dash_distance/18, direction);
-		var yspd = lengthdir_y(dash_distance/18, direction);
+	if(dash_step < dash_max){
+		var xspd = lengthdir_x(dash_distance/dash_max, direction);
+		var yspd = lengthdir_y(dash_distance/dash_max, direction);
 		instance_create_layer(x + xspd/3, y + yspd/3, "SlimeTrailFire", fire_trail);
 		instance_create_layer(x + 2*xspd/3, y + 2*yspd/3, "SlimeTrailFire", fire_trail);
 	}
 	dash_step++;
 }
-if(dash_step > 18){
+if(dash_step > dash_max){
 	stop_dash();
 }
 #endregion

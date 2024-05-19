@@ -25,8 +25,8 @@
   "nineSlice":null,
   "origin":0,
   "parent":{
-    "name":"Bob",
-    "path":"folders/Sprites/Bob.yy",
+    "name":"LiesSprites",
+    "path":"folders/Sprites/LiesSprites.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

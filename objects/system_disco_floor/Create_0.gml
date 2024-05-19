@@ -1,13 +1,13 @@
 /// @description 
 
 //Size of grid
-length_x = 12;
-length_y = 6
+length_x = 13;
+length_y = 7
 // Start value of grid (Top left)
-start_x = -5000000;
-start_y = -5000000
+start_x = 380;
+start_y = 450;
 // Distance between panels
-panel_distance = 80;
+panel_distance = 90;
 
 floor_colors = {
 	red : 0,
@@ -21,7 +21,7 @@ for(var _x = 0; _x < length_x; _x++){
 	for(var _y = 0; _y < length_y; _y++){
 		var inst = instance_create_layer(start_x + panel_distance * _x, start_y + panel_distance * _y, "DiscoLayer", disco_panel);
 		with (inst){
-			image_index = random_range(0, 3);
+			image_index = random_range(0, 4);
 			image_alpha = 1;
 		}
 		ds_grid_set(panel_grid, _x, _y, inst);

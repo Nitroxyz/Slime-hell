@@ -2,9 +2,9 @@
   "$GMSprite":"",
   "%Name":"spr_disco_panel",
   "bboxMode":0,
-  "bbox_bottom":63,
+  "bbox_bottom":79,
   "bbox_left":0,
-  "bbox_right":63,
+  "bbox_right":79,
   "bbox_top":0,
   "collisionKind":1,
   "collisionTolerance":0,
@@ -21,7 +21,7 @@
   ],
   "gridX":0,
   "gridY":0,
-  "height":64,
+  "height":80,
   "HTile":false,
   "layers":[
     {"$GMImageLayer":"","%Name":"384161b0-2a6e-4369-a953-3ba1bcf32288","blendMode":0,"displayName":"default","isLocked":false,"name":"384161b0-2a6e-4369-a953-3ba1bcf32288","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
@@ -106,5 +106,5 @@
   },
   "type":0,
   "VTile":false,
-  "width":64,
+  "width":80,
 }

@@ -2,7 +2,7 @@
 randomize();
 
 // Don't change! allows for the change of pause to be checked
-pause_simul = false;
+pause_simul = true;
 
 // TODO on the cutting board
 #region
@@ -27,28 +27,30 @@ active_segments = 0;
 ongoing_major = false;
 
 //Alarm 0 is the timer for the next major to start after the prev major ends.
+if(!pause_simul){
 alarm[0] = 120;
 alarm[1] = -1;
 alarm[2] = 240; // Simuls init
+}
 
 // Spawns the segments
 #region
-
+var middle = room_width/2;
+var spawner_xoffset = 300;
+var missle_xoffset = 500;
+var hand_offset = 770;
 //spawning head
-head_segment = instance_create_layer(room_width/2, 224, "BossLayer", MidSegment);
+head_segment = instance_create_layer(middle, 224, "BossLayer", MidSegment);
 
-var spawner_xoffset = 33;
-var missle_xoffset = 33;
-var hand_offset = 33;
 //spawning left segments
-missile_left = instance_create_layer(512, 272, "BossLayer", Lcannon);
-spawner_left = instance_create_layer(660, 192, "BossLayer", Lspawner);
-hand_left = instance_create_layer(320, 448, "BossLayer", Lhand);
+missile_left = instance_create_layer(middle - missle_xoffset, 272, "BossLayer", Lcannon);
+spawner_left = instance_create_layer(middle - spawner_xoffset, 192, "BossLayer", Lspawner);
+hand_left = instance_create_layer(middle - hand_offset, 448, "BossLayer", Lhand);
 
 //spawning right segments
-missile_right = instance_create_layer(1408, 272, "BossLayer", Rcannon);
-spawner_right = instance_create_layer(1260, 192, "BossLayer", Rspawner);
-hand_right = instance_create_layer(1600, 448, "BossLayer", Rhand);
+missile_right = instance_create_layer(middle + missle_xoffset, 272, "BossLayer", Rcannon);
+spawner_right = instance_create_layer(middle + spawner_xoffset, 192, "BossLayer", Rspawner);
+hand_right = instance_create_layer(middle + hand_offset, 448, "BossLayer", Rhand);
 
 segments = [missile_left, missile_right, spawner_left, spawner_right, hand_left, hand_right, head_segment];
 #endregion
