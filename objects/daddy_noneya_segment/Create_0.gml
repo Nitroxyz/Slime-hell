@@ -24,6 +24,12 @@ left_side = false;
 // Saves the current timeline state
 timeline_active = timeline_running;
 
+// Changes after the opening cutscene
+revealed = true;
+
+// If true, is fully  shown (for the missile destruction event and reveals)
+full_reveal = false;
+
 // Callback for his major (OVERWRITE)
 abstract_callmajor = function(){
 }

@@ -2,7 +2,7 @@
 randomize();
 
 // Don't change! allows for the change of pause to be checked
-pause_simul = true;
+pause_simul = false;
 
 // TODO on the cutting board
 #region

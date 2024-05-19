@@ -28,6 +28,28 @@ if(!surface_exists(surf)){
 			draw_self();
 		}
 	}
+	with(the_face){
+		if(other.faceable){
+			image_alpha = 0.1;
+			draw_self();
+		}
+	}
+	with(daddy_noneya_segment){
+		if(revealed){
+			image_alpha = 0.05;
+		} else {
+			image_alpha = 0.1;
+		}
+		if(full_reveal){
+			image_alpha = 1;
+		}
+		draw_self();
+		if(revealed){
+			image_alpha = 1;
+		}
+	}
+		
+	draw_rectangle(rectangle[0], rectangle[1], rectangle[2], rectangle[3], false);
 	surface_reset_target();
 	gpu_set_blendmode(bm_normal);
 	draw_surface(surf, 0, 0);

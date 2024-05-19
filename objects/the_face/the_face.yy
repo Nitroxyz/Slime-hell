@@ -1,17 +1,15 @@
 {
   "$GMObject":"",
-  "%Name":"mr_dead",
+  "%Name":"the_face",
   "eventList":[
-    {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":1,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"mr_dead",
+  "name":"the_face",
   "overriddenProperties":[],
   "parent":{
-    "name":"Bob",
-    "path":"folders/Objects/Bob.yy",
+    "name":"Objects",
+    "path":"folders/Objects.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -32,8 +30,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_mr_dead",
-    "path":"sprites/spr_mr_dead/spr_mr_dead.yy",
+    "name":"spr_face",
+    "path":"sprites/spr_face/spr_face.yy",
   },
   "spriteMaskId":null,
   "visible":true,
