@@ -2,6 +2,7 @@ PLEASE MAKE THE BURST FASTER
 I'm gonna try and do it myself but if it is still the same speed you will need to do it.
 
 
+
 I turned off the music while I was testing
  go to system_system
  go to room start event

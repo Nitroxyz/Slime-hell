@@ -71,7 +71,7 @@ freeze = function(){
 	move_lock = true;
 	speed = 0;
 	freezing = true;
-	alarm_set(0, 52);
+	alarm_set(0, 25);
 	var freezy = instance_create_layer(x, y, "MrFreeze", mr_freeze);
 	with(freezy){
 		image_xscale = other.image_xscale;
