@@ -26,7 +26,7 @@ ongoing_major = false;
 if(!pause_simul){
 alarm[0] = 300;
 alarm[1] = -1;
-alarm[2] = 320; // Simuls init 120
+alarm[2] = 120; // Simuls init 120
 //actual value alarm[3] = 3600;
 alarm[3] = 3600;
 }
@@ -137,20 +137,27 @@ startsimul = function() {
 phaseupdate = function() {
 if(ongoing_major = false && num_simul = 0) {
 	switch (phase) {
-		//before/during destruction 1
+
 		case 0:
 			break;
-		//before/during descruction 2
 		case 1:
-			instance_create_layer(0,0,"System",Missile_EventCTRL)
+			show_debug_message("spawning eventCTRL");
+			instance_create_layer(0,0,"System",Missile_EventCTRL);
+			break;
 		case 2:
-			instance_destroy(Missile_EventCTRL)
+			Alarm[0] = 300;
+			countsimuls();
+			instance_destroy(Missile_EventCTRL);
 			Rcannon.state = 2;
 			Lcannon.state = 2;
 			Lhand.state = 0;
 			Rhand.state = 0;
 			MidSegment.state = 0;
+			break;
 		default:
 	} 	
+	
+} else {
+	alarm[3] = 5;
 }
 }

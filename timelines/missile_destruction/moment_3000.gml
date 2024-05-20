@@ -11,5 +11,5 @@ if(esimul_active) {
 	final_barrage = true;
 	tile_cap = 100;
 	}
-	system_the_darkness_is_coming.set_rectangle(0, 440, 1920, 1080);
+	//system_the_darkness_is_coming.set_rectangle(0, 440, 1920, 1080);
 }

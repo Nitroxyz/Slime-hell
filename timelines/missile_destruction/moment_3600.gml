@@ -38,6 +38,7 @@ with(Rhand) {
 }
 instance_destroy(system_the_darkness_is_coming);
 
-phaseset(2);
-publicphaseupdate();
+with(BossCTRL) {
+	phase = 2;
+	phaseupdate();
 }
