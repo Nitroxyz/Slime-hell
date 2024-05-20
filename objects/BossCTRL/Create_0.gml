@@ -3,12 +3,8 @@ randomize();
 
 pause_simul = false;
 
-// TODO on the cutting board
-#region
-// Setting this to true initiates a pause
-//change_pause_simul = false;
-//simuls_init = false;
-#endregion
+
+simuls_init = false;
 
 //-1 by default, otherwise set to whichever segment is currently doing the thing.
 major_segment = -1;
@@ -29,7 +25,7 @@ ongoing_major = false;
 if(!pause_simul){
 alarm[0] = 300;
 alarm[1] = -1;
-alarm[2] = 120; // Simuls init
+alarm[2] = 120; // Simuls init 120
 //actual value alarm[3] = 3600;
 alarm[3] = 360;
 }

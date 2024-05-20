@@ -56,17 +56,22 @@ get_color = function(_x, _y){
 	return inst.image_index;
 }
 
-// Returns an array of a struct with {x_pos, y_pos}
+// Returns an array of a array with [x_pos, y_pos}]
 find_color = function(color){
 	result = [];
 	for(var _x = 0; _x < length_x; _x++){
 		for(var _y = 0; _y < length_y; _y++){
 			if(get_color(_x, _y) == color){
-				array_push(result, {x_pos : _x, y_pos : _y});
+				array_push(result, [_x, _y]);
 			}
 		}
 	}
 	return result;
+}
+
+grid_to_room_coord_trans = function(_x, _y){
+	var inst = ds_grid_get(panel_grid, _x, _y);
+	return [inst.x, inst.y];
 }
 #endregion
 

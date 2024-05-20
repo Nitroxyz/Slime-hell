@@ -1,0 +1,1 @@
+destr_drop_bomb();
