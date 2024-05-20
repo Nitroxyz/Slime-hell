@@ -3,6 +3,8 @@
 // Only see the cutscene once per boot-up
 cutscene_seen = false;
 
+song_started = false;
+
 // Create all the other systems
 //disco_floor = instance_create_layer(0, 0, "System", system_disco_floor)7
 //darkness = instance_create_layer(0, 0, "System", system_the_darkness_is_coming);
@@ -15,4 +17,10 @@ boss = -1;
 	timeline_speed = 1;
 	timeline_position = irandom_range(-120,0);
 	timeline_loop = false;
-/*
+*/
+song_start = function(){
+	if(!song_started){
+		audio_play_sound(song_the_banger, 100, true);
+		song_started = true;
+	}
+}

@@ -26,7 +26,7 @@ ongoing_major = false;
 if(!pause_simul){
 alarm[0] = 300;
 alarm[1] = -1;
-alarm[2] = -1; // Simuls init 120
+alarm[2] = 120; // Simuls init 120
 //actual value alarm[3] = 3600;
 alarm[3] = 180;
 }
