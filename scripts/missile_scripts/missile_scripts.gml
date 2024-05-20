@@ -93,3 +93,21 @@ eventmissiles(1736,612,20);
 eventmissiles(1836,1020,20);
 eventmissiles(1736,1020,20);
 }
+
+function destr_drop_bomb(){
+	var disco = system_disco_floor;
+	var whites = disco.find_color(disco.floor_colors.white);
+	for(var i = 0; i < array_length(whites); i++){
+		var x_y_pair = whites[i];
+		var real_x_y_pair = disco.grid_to_room_coord_trans(x_y_pair[0], x_y_pair[1]);
+		var warning = instance_create_layer(real_x_y_pair[0] + 40, real_x_y_pair[1] + 40, "BossLayer", fillmissile_warning);
+		//Spawns the missile, then starts it on the path
+		var missile  = instance_create_layer(real_x_y_pair[0] + 40, real_x_y_pair[1] + 40 - 1080, "Projectiles", fillmissile_incorporeal);
+		with(missile){
+			// Where does fallingPath come from?
+			startpath(fallingPath, 36, path_action_stop, false, 60);
+			warning_x = warning.x;
+			warning_y = warning.y;
+		}
+	}
+}

@@ -1,10 +1,14 @@
-///@description starts fillscreen looping
+///@description starts fillscreen looping/main barrage
 
 
 with (Missile_EventCTRL) {
 	alarm[0] = 1;
 }
-
+with(system_disco_floor){
+	alarm[0] = -1;
+	event_perform(ev_alarm, 1);
+}
+destr_drop_bomb();
 /*
 planning out timeline for the event
 
