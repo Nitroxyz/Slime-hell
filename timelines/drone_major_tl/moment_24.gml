@@ -1,10 +1,11 @@
 ///@description 2nd drone spawn
 
-	if(BossCTRL.path_flipped == true) {
+	if(BossCTRL.path_flipped) {
 		drone4 = instance_create_layer(1260, 192, "BossLayer", drone);
-		drone4.startpath(spawnPath4, 8, path_action_stop, false);	
+		major1pathing(drone4,reversespawnPath4,8);
+	
 	}
 	else {
-		drone4 = instance_create_layer(660, 192, "BossLayer", drone);
-		drone4.startpath(spawnPath4, 8, path_action_stop, false);
+	drone4 = instance_create_layer(660, 192, "BossLayer", drone);
+	major1pathing(drone4,spawnPath4,8);
 	}

@@ -3,4 +3,5 @@
 
 damage_dealing_state = true;
 
-timer = 0;
+active_time = 0;
+active_timer = 6;

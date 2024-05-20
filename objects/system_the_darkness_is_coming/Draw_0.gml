@@ -28,6 +28,20 @@ if(!surface_exists(surf)){
 			draw_self();
 		}
 	}
+	
+	
+	with(fillmissile_warning){
+		if(!(fillmissile_warning.sprite_index == missile_shadow))
+			draw_self();
+	}
+	with(fillmissile_incorporeal){
+			draw_self();
+	}
+	with(fillmissile_explosion){
+			draw_self();
+	}
+	
+	
 	with(the_face){
 		if(other.faceable){
 			image_alpha = 0.1;

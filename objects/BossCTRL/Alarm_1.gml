@@ -5,4 +5,8 @@
 		is_major = false;
 	with(Rcannon)
 		is_major = false;	
-	BossCTRL.alarm[0] = 300;
+	if(BossCTRL.ongoing_event = true) {
+		pause_simul = true;
+	} else {
+		BossCTRL.alarm[0] = 300;
+	}

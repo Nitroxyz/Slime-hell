@@ -1,2 +1,2 @@
 /// @description Init intinialitsionsaion simukls
-countsimuls();
+simuls_init = true;

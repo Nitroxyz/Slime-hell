@@ -11,9 +11,11 @@ panel_distance = 90;
 
 floor_colors = {
 	red : 0,
-	blue : 1,
-	white : 2,
-	none : 3,
+	pink : 1,
+	blue : 2,
+	yellow : 3,
+	white : 4,
+	none : 5,
 };
 
 panel_grid = ds_grid_create(length_x, length_y);
