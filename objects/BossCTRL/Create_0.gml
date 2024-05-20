@@ -1,7 +1,8 @@
 //randomizes the randomness
 randomize();
 
-phase = 0;
+phase = 2;
+
 
 pause_simul = false;
 
@@ -30,7 +31,7 @@ alarm[2] = 120; // Simuls init 120
 //actual value alarm[3] = 3600;
 alarm[3] = 3600;
 }
-
+alarm[6] = 1;
 // Spawns the segments
 #region
 var middle = room_width/2;
@@ -135,29 +136,34 @@ startsimul = function() {
 }
 
 phaseupdate = function() {
-if(ongoing_major = false && num_simul = 0) {
-	switch (phase) {
-
-		case 0:
-			break;
-		case 1:
-			show_debug_message("spawning eventCTRL");
-			instance_create_layer(0,0,"System",Missile_EventCTRL);
-			break;
-		case 2:
-			Alarm[0] = 300;
-			countsimuls();
-			instance_destroy(Missile_EventCTRL);
-			Rcannon.state = 2;
-			Lcannon.state = 2;
-			Lhand.state = 0;
-			Rhand.state = 0;
-			MidSegment.state = 0;
-			break;
-		default:
-	} 	
+	if(ongoing_major == false && num_simul == 0) {
+		switch (phase) {
+			case 0:
+				break;
+			case 1:
+				show_debug_message("spawning eventCTRL");
+				instance_create_layer(0,0,"System",Missile_EventCTRL);
+				break;
+			case 2:
+				instance_create_layer(0,0,"System",basedobject);
+				ongoing_event = false;
+				alarm[3] = -1;
+				alarm[0] = 300;
+				pause_simuls = false;
+				//countsimuls();
+				instance_destroy(Missile_EventCTRL);
+				//Rcannon.state = 2;
+				//Lcannon.state = 2;
+				Lhand.state = 0;
+				Rhand.state = 0;
+				MidSegment.state = 0;
+				break;
+			default:
+		} 	
 	
-} else {
-	alarm[3] = 5;
+	} else {
+			alarm[3] = 5;
+	}
 }
-}
+
+phaseupdate();

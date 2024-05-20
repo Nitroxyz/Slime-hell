@@ -18,5 +18,5 @@ moveup = function() {
 
 callsimul =  function() {
 	is_simul = true;
-	Rhand.x -= 100;
+
 }
