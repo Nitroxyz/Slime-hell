@@ -2,6 +2,9 @@ event_inherited()
 state = 3;
 left_side = false;
 
+//set incase the hand was hopping during restart
+sprite_index = 	spr_HandR;
+
 callmajor = function() {
 	
 }

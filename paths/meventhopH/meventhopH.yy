@@ -1,0 +1,18 @@
+{
+  "$GMPath":"",
+  "%Name":"meventhopH",
+  "closed":false,
+  "kind":0,
+  "name":"meventhopH",
+  "parent":{
+    "name":"HandPaths",
+    "path":"folders/Paths/BossPaths/HandPaths.yy",
+  },
+  "points":[
+    {"speed":100.0,"x":0.0,"y":0.0,},
+    {"speed":100.0,"x":192.0,"y":0.0,},
+  ],
+  "precision":4,
+  "resourceType":"GMPath",
+  "resourceVersion":"2.0",
+}

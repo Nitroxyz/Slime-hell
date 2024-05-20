@@ -1,0 +1,1 @@
+///@desc starts the alarm to make the hand jump around

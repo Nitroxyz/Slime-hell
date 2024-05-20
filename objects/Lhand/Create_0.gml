@@ -3,6 +3,15 @@ state = 3;
 
 left_side = true;
 
+//set incase the hand was hopping during restart
+sprite_index = 	spr_HandL;
+
+//during m event simul, the hand jumps along a set grid.
+hopgrid_x = -1;
+hopgrid_y = 0;
+//hand only moves every other hop
+hopready = false;
+
 callmajor = function() {
 	
 }

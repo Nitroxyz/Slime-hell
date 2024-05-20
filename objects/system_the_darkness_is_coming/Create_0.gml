@@ -3,6 +3,9 @@ rectangle = [0, 0, 0, 0]
 bonus_objects = [];
 faceable = true;
 
+draw_drones = false;
+
+
 surf = surface_create(room_width, room_height);
 
 set_rectangle = function(x1, y1, x2, y2){
