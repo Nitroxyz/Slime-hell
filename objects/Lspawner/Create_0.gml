@@ -28,16 +28,37 @@ callsimul =  function() {
 	//The standard simul starting routine.
 	is_simul = true;
 	
-	//this is a short path that exits the spawn, I can use it as a shortcut to make the drone take a curved path out the spawn door
-	drone_simul1_path = path_duplicate(spawnPathShort);
 	
-	//this is the part you would change to make the drone go wherever.
-	path_add_point(drone_simul1_path, random_range(0-x,1920-x), 1280, 100);
+	/*
+	switch(Rcannon.timeline_index){
+		case missile_simul1_tl:
+			simul = 2;
+			break;
+		case missile_simul2_tl:
+			simul = 1;
+			break;
+		default: // When it's empty
+			simul = choose(1, 2);
+	}
+	*/
 	
-	//starting the timeline
-	timeline_index = drone_simul1_tl;
-	timeline_running = true;
-	timeline_speed = 1;
-	timeline_position = irandom_range(-120,0);
-	timeline_loop = false;
+	
+		simul = 1;
+	switch (simul) {
+		case 1:
+			drone_simul1_path = path_duplicate(spawnPathShort);
+			
+			//this is the part you would change to make the drone go wherever.
+			path_add_point(drone_simul1_path, random_range(0-x,1920-x), 1280, 100);
+			
+			//starting the timeline
+			timeline_index = drone_simul1_tl;
+			timeline_running = true;
+			timeline_speed = 1;
+			timeline_position = irandom_range(-120,0);
+			timeline_loop = false;
+			break;
+		case 2:
+			
+	}
 }

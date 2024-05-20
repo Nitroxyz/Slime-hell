@@ -2,7 +2,7 @@
 
 //Size of grid
 length_x = 13;
-length_y = 7
+length_y = 7;
 // Start value of grid (Top left)
 start_x = 380;
 start_y = 450;
@@ -16,7 +16,7 @@ floor_colors = {
 	yellow : 3,
 	white : 4,
 	none : 5,
-};
+}
 
 panel_grid = ds_grid_create(length_x, length_y);
 
