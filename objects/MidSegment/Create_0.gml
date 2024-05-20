@@ -1,6 +1,6 @@
 event_inherited()
 
-state = 0;
+state = 3;
 
 callmajor = function() {
 	MidSegment.x -= 100;

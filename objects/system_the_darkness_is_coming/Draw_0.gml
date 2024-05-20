@@ -29,6 +29,7 @@ if(!surface_exists(surf)){
 		}
 	}
 	
+	//why is the burst meter object named GUI?
 	
 	with(fillmissile_warning){
 		if(!(fillmissile_warning.sprite_index == missile_shadow))
@@ -40,7 +41,21 @@ if(!surface_exists(surf)){
 	with(fillmissile_explosion){
 			draw_self();
 	}
+	with(missile_warning){
+		if(!(missile_warning.sprite_index == missile_shadow))
+			draw_self();
+	}
+	with(missile_incorporeal){
+			draw_self();
+	}
+	with(missile_explosion){
+			draw_self();
+	}
 	
+	if(draw_drones == true) {
+		with(drone)
+			draw_self();
+	}
 	
 	with(the_face){
 		if(other.faceable){

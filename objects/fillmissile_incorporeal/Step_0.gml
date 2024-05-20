@@ -14,7 +14,7 @@ if(BossCTRL.ongoing_event == true) {
 
 
 
-instance_create_layer(warning_x,warning_y,"projectiles",fillmissile_explosion)
+instance_create_layer(warning_x,warning_y,"Projectiles",fillmissile_explosion)
 with(fillmissile_explosion)
 	active_timer = other.explosion_active_frames;
 instance_destroy();	

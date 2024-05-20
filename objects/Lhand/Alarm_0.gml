@@ -1,4 +1,4 @@
-/// @description Insert description here
+/// @description shooting during hard simul
 // You can write your code in this editor
 
 	handpewpew(true)

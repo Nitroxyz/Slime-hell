@@ -3,5 +3,10 @@
 	timeline_index = missile_destruction;
 	timeline_running = true;
 	timeline_speed = 1;
-	timeline_position = irandom_range(-120,0);
+	timeline_position = -1;
 	timeline_loop = false;
+	
+	esimul_active = false;
+	
+	//controls if simuls are able to be reset
+	esimul_reset = true;

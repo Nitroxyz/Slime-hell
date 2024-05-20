@@ -9,6 +9,14 @@ start_y = 450;
 // Distance between panels
 panel_distance = 90;
 
+//the chance of a white tile, higher is bigger
+tile_chance = 1;
+//most white tiles that can appear in one barrage
+tile_cap = 50;
+//tracks the number of white tiles to work with the cap
+white_tiles = 0;
+// on the final barrage, all tiles will be white and the missiles will be more delayed.
+final_barrage = false;
 floor_colors = {
 	red : 0,
 	pink : 1,

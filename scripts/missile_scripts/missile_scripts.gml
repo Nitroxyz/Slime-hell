@@ -54,7 +54,7 @@ for(var i = 0; i < array_length(event_tile_centers); i++) {
 		//objects are spawned on the location determined by finding the center of the grid, then adding the location of the tile (from the array). 
 		//spawns the X
 		
-		var warning = instance_create_layer(grid_centerx + event_tile_centers[currtile][0], grid_centery + event_tile_centers[currtile][1], "BossLayer", fillmissile_warning);
+		var warning = instance_create_layer(grid_centerx + event_tile_centers[currtile][0], grid_centery + event_tile_centers[currtile][1], "Projectiles", fillmissile_warning);
 		
 		//Spawns the missile, then starts it on the path
 		var missile  = instance_create_layer(grid_centerx + event_tile_centers[currtile][0], grid_centery + event_tile_centers[currtile][1] - 1080, "Projectiles", fillmissile_incorporeal);
@@ -84,14 +84,14 @@ eventmissiles(1836,204,20);
 eventmissiles(1736,204,20);
 
 //left side
-eventmissiles(192,612,20);
-eventmissiles(192,1020,20);
+eventmissiles(92,612,20);
+eventmissiles(92,1020,20);
 
 //right side
 eventmissiles(1836,612,20);
-eventmissiles(1736,612,20);
+//eventmissiles(1736,612,20);
 eventmissiles(1836,1020,20);
-eventmissiles(1736,1020,20);
+//eventmissiles(1736,1020,20);
 }
 
 function destr_drop_bomb(){
@@ -100,14 +100,39 @@ function destr_drop_bomb(){
 	for(var i = 0; i < array_length(whites); i++){
 		var x_y_pair = whites[i];
 		var real_x_y_pair = disco.grid_to_room_coord_trans(x_y_pair[0], x_y_pair[1]);
-		var warning = instance_create_layer(real_x_y_pair[0] + 40, real_x_y_pair[1] + 40, "BossLayer", fillmissile_warning);
+		var warning = instance_create_layer(real_x_y_pair[0] + 40, real_x_y_pair[1] + 40, "BossLayer", missile_warning);
 		//Spawns the missile, then starts it on the path
-		var missile  = instance_create_layer(real_x_y_pair[0] + 40, real_x_y_pair[1] + 40 - 1080, "Projectiles", fillmissile_incorporeal);
+		var missile  = instance_create_layer(real_x_y_pair[0] + 40, real_x_y_pair[1] + 40 - 1080, "Projectiles", missile_incorporeal);
+		with(missile){
+			// Where does fallingPath come from?
+			if(disco.final_barrage == false) {
+				startpath(fallingPath, 36, path_action_stop, false, 60);
+				warning_x = warning.x;
+				warning_y = warning.y;
+			} else {
+				startpath(fallingPath, 36, path_action_stop, false, 300);
+				warning_x = warning.x;
+				warning_y = warning.y;
+			}
+		}
+	}
+}
+function dropone(x,y, activef) {
+	var warning = instance_create_layer(x, y, "BossLayer", missile_warning);
+		//Spawns the missile, then starts it on the path
+		var missile  = instance_create_layer(x, y - 1080, "Projectiles", missile_incorporeal);
 		with(missile){
 			// Where does fallingPath come from?
 			startpath(fallingPath, 36, path_action_stop, false, 60);
 			warning_x = warning.x;
 			warning_y = warning.y;
+			explosion_active_frames = activef;
 		}
+}
+
+function eventsimulreset() {
+	esimul_active = false;
+	if(esimul_reset) {
+		alarm[1] = 240;	
 	}
 }

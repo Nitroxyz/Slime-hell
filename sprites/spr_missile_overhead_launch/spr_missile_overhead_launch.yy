@@ -33,8 +33,8 @@
   "nineSlice":null,
   "origin":9,
   "parent":{
-    "name":"Segments",
-    "path":"folders/Sprites/Boss/Segments.yy",
+    "name":"animations",
+    "path":"folders/Sprites/Boss/Segments/animations.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

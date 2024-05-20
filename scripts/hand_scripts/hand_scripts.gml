@@ -53,3 +53,33 @@ function handpewpew(side) {
 		}
 	}
 }
+
+function handhop(vertical) {
+	if(vertical == true) {
+		startpath(meventhopV, 4, path_action_stop, false);	
+		hopgrid_y += 1;
+	} else {
+		startpath(meventhopH, 4, path_action_stop, false);	
+		hopgrid_x +=1;
+	}
+}
+
+function msimulend() {
+	hopgrid_x = -1;
+	hopgrid_y = 0;
+	alarm[1] = -1;
+	with(Missile_EventCTRL) {
+		eventsimulreset();
+	}
+	with(Lhand) {
+		x = 272;
+		y = 588;
+		sprite_index = spr_HandL;
+	}
+	with(Rhand) {
+		x = 1664;
+		y = 588;
+		sprite_index = spr_HandR;
+	}
+
+}

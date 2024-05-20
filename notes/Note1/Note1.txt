@@ -1,0 +1,36 @@
+PLEASE MAKE THE BURST FASTER
+I'm gonna try and do it myself but if it is still the same speed you will need to do it.
+
+
+I turned off the music while I was testing
+ go to system_system
+ go to room start event
+ uncomment the line of code.
+ I believe in you :)
+ 
+ please don't change the speed of bob. if you wanted to do that you should have done it last night. 
+ it is too late to rebalance all of the attacks now.
+ 
+ 
+ add walls on the edges of the screen
+ 
+ UI layer was missing
+	when we did the merge we accidentally removed both the UI and Layer9 layers.
+	I Re-added them both UI layer but you should make sure the UI layer is at a depth that you like
+	I also Re-added the burst meter but you should make sure you like the location.
+	
+
+	
+there needs to be somewhere in the game where the freeze (name for burst) mechanic is explained
+	specifically, the part about the meter being drained while you are in the blue circle it leaves on the ground.
+	ik we have the UI and stuff but the player prob wont be watching it that closely and without a sound effect its not clear enough. it needs to be explained in text.
+	we could put some text on the controls screen or have it as a tip on the death screen.
+	something like "Use freeze to destroy all the projectiles around you! While standing on frozen ground, your freeze will slowly drain freeze charge."
+	
+	
+Make the game fullscreen
+	
+you can make the explosion use the one beef made but honestly I dont really care at this point.
+
+
+	ALSO PLEASE MAKE THE BURST FASTER
