@@ -19,6 +19,7 @@ callmajor = function() {
 }
 
 callsimul =  function() {
+	if(BossCTRL.phase == 0) {
 	// :(
 	//sets is_simul to true immediately
 	is_simul = true;
@@ -61,4 +62,5 @@ callsimul =  function() {
 			timeline_loop = false;
 			break;
 	}
+}
 }
