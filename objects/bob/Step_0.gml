@@ -49,17 +49,17 @@ if(!move_lock){
 	speed = 0;
 }
 //Prevent going off the screen
-if(x + hspeed > room_width){
-	hspeed = room_width - x;
+if(x + hspeed > room_width - 33){
+	hspeed = room_width - 33 - x;
 }
-if(x + hspeed < 0){
-	hspeed = 0 - x;
+if(x + hspeed < 33){
+	hspeed = 33 - x;
 }
-if(y + vspeed > room_height){
-	vspeed = room_height - y;
+if(y + vspeed > room_height - 30){
+	vspeed = room_height - 30 - y;
 }
-if(y + vspeed < 0){
-	vspeed = 0 - y;
+if(y + vspeed < 30){
+	vspeed = 30 - y;
 }
 #endregion
 
