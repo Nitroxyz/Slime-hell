@@ -9,6 +9,8 @@
 3: Getting freaky
 }
 */
+damage_dealing_state = true;
+
 //since the head only becomes active part way through the fight, it will have a 3 state until it becomes real
 state = 0;
 

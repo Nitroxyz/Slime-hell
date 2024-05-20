@@ -30,8 +30,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_face",
-    "path":"sprites/spr_face/spr_face.yy",
+    "name":"spr_face_moving",
+    "path":"sprites/spr_face_moving/spr_face_moving.yy",
   },
   "spriteMaskId":null,
   "visible":true,
