@@ -7,7 +7,6 @@ if(path_index = -1) {
 		simulhardloop(false);	
 	}
 	alarm[0] = 20;
-}
-	else {
+} else {
 	timeline_position -= 2;	
-	}
+}
