@@ -11,7 +11,10 @@
     "name":"BossObjects",
     "path":"folders/Objects/BossObjects.yy",
   },
-  "parentObjectId":null,
+  "parentObjectId":{
+    "name":"daddy_noneya_overhead",
+    "path":"objects/daddy_noneya_overhead/daddy_noneya_overhead.yy",
+  },
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
