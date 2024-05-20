@@ -15,5 +15,4 @@ boss = -1;
 	timeline_speed = 1;
 	timeline_position = irandom_range(-120,0);
 	timeline_loop = false;
-*/
-	
+/*

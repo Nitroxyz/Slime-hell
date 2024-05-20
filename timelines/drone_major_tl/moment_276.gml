@@ -1,12 +1,25 @@
 ///@description drones move sideways across the screen
 
-if(instance_exists(drone1)) 
-	drone1.startpath(sidePathLong,6,path_action_stop,false);
-if(instance_exists(drone2)) 
-	drone2.startpath(sidePathShort,6,path_action_stop,false);
-if(instance_exists(drone3)) 
-	drone3.startpath(sidePathLong,6,path_action_stop,false);
-if(instance_exists(drone4)) 
-	drone4.startpath(sidePathShort,6,path_action_stop,false);
-if(instance_exists(drone5)) 
-	drone5.startpath(sidePathLong,6,path_action_stop,false);
+if(BossCTRL.path_flipped = true) {
+	if(instance_exists(drone1)) 
+		major1pathing(drone1,reverseSidePathLong,8);
+	if(instance_exists(drone2)) 
+		major1pathing(drone2,reverseSidePathShort,8);
+	if(instance_exists(drone3)) 
+		major1pathing(drone3,reverseSidePathLong,8);
+	if(instance_exists(drone4)) 
+		major1pathing(drone4,reverseSidePathShort,8);
+	if(instance_exists(drone5)) 
+		major1pathing(drone5,reverseSidePathLong,8);
+}	else {
+	if(instance_exists(drone1)) 
+		major1pathing(drone1,sidePathLong,8);
+	if(instance_exists(drone2)) 
+		major1pathing(drone2,sidePathShort,8);
+	if(instance_exists(drone3)) 
+		major1pathing(drone3,sidePathLong,8);
+	if(instance_exists(drone4)) 
+		major1pathing(drone4,sidePathShort,8);
+	if(instance_exists(drone5)) 
+		major1pathing(drone5,sidePathLong,8);
+}

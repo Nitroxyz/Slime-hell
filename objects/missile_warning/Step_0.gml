@@ -3,6 +3,8 @@
 
 timer += 1;
 
+
+
 if(timer > 59 && timer < 89) {
 	sprite_index = missile_shadow;
 	opacity += 0.05;

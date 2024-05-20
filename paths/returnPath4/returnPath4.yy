@@ -9,10 +9,10 @@
     "path":"folders/Paths/BossPaths/DronePaths.yy",
   },
   "points":[
-    {"speed":100.0,"x":0.0,"y":0.0,},
-    {"speed":100.0,"x":0.0,"y":320.0,},
-    {"speed":100.0,"x":-330.0,"y":600.0,},
     {"speed":100.0,"x":-600.0,"y":640.0,},
+    {"speed":100.0,"x":-300.0,"y":600.0,},
+    {"speed":100.0,"x":0.0,"y":320.0,},
+    {"speed":100.0,"x":0.0,"y":0.0,},
   ],
   "precision":4,
   "resourceType":"GMPath",

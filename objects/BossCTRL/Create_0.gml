@@ -28,9 +28,11 @@ ongoing_major = false;
 
 //Alarm 0 is the timer for the next major to start after the prev major ends.
 if(!pause_simul){
-alarm[0] = 120;
+alarm[0] = 300;
 alarm[1] = -1;
-alarm[2] = 240; // Simuls init
+alarm[2] = 120; // Simuls init
+//actual value alarm[3] = 3600;
+alarm[3] = 180;
 }
 
 // Spawns the segments
@@ -66,7 +68,7 @@ countsimuls = function() {
 	// It coutts things
 	#region
 	//Resets the counters
-	var num_simul = 0; //first it counts the number of simuls
+	num_simul = 0; //first it counts the number of simuls
 	active_segments = 0;
 	ongoing_major = false;
 	
@@ -91,18 +93,19 @@ countsimuls = function() {
 	//override for other simul checks
 	// TODO simuls wont be able to start while an event is waiting to start or ongoing
 	//--- VERY IMPORTANT --- make sure to call countsimuls after unpausing, otherwise you may create a situation where simuls will stop playing forever.
-	if(!pause_simul) {
+	
 	//then it uses whether or not a major is going on to determine whether or not the maximum number of simuls are already playing
-		
+	if(!pause_simul) {	
 		// When major is active 
 		var max_simuls = (ongoing_major) ? 3 : 4;
 		for(var i = num_simul; i < max_simuls; i++){
-			startsimul();
+
+				startsimul();
+			}
 		}
+		
 	}
 	#endregion
-}
-
 // Start simul
 startsimul = function() {
 	//tracking variables are reset each time an array needs to be constructed.
