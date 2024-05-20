@@ -5,3 +5,4 @@ with(bob){
 	other.freeze_max = freeze_max;
 }
 image_index = round(2 * freeze_meter / freeze_max) + freeze_full * 3;
+draw_text(x + 80, y - 20, string(freeze_meter));
