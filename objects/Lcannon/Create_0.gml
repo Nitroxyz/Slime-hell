@@ -20,6 +20,7 @@ callmajor = function() {
 }
 
 callsimul =  function() {
+	if(BossCTRL.phase == 0) {
 	show_debug_message("Lcannon is simulling all over the place"); // uwu
 	
 	//sets is_simul to true immediately
@@ -64,4 +65,5 @@ callsimul =  function() {
 			break;
 	}
 	#endregion
+}
 }
