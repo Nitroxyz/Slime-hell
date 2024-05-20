@@ -1,8 +1,7 @@
 //randomizes the randomness
 randomize();
 
-// Don't change! allows for the change of pause to be checked
-pause_simul = true;
+pause_simul = false;
 
 // TODO on the cutting board
 #region
@@ -32,7 +31,7 @@ alarm[0] = 300;
 alarm[1] = -1;
 alarm[2] = 120; // Simuls init
 //actual value alarm[3] = 3600;
-alarm[3] = 180;
+alarm[3] = 360;
 }
 
 // Spawns the segments

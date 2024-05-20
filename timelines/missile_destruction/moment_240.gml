@@ -17,7 +17,7 @@ Step 1:
 	
 	
 step 2: 
-	spawn missiles on the color - indicated tiles
+	spawn missiles on the color-indicated tiles
 		should probably happen on an alarm
 			reuse alarm[0]?
 			

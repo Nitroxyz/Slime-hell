@@ -16,5 +16,14 @@ moveup = function() {
 
 callsimul =  function() {
 	is_simul = true;
-	Lhand.x -= 100;
+	
+	timeline_index = hand_simulhard_tl;
+	timeline_running = true;
+	timeline_speed = 1;
+	timeline_position = irandom_range(-120,0);
+	timeline_loop = false;
+}
+
+startpath = function(path,spd,ending,isAbsolute) {
+	path_start(path,spd,ending,isAbsolute);
 }
