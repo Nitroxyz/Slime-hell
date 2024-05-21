@@ -1,7 +1,7 @@
 //randomizes the randomness
 randomize();
 
-phase = 2;
+phase = 0;
 
 
 pause_simul = false;
@@ -165,5 +165,3 @@ phaseupdate = function() {
 			alarm[3] = 5;
 	}
 }
-
-phaseupdate();
