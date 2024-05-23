@@ -13,7 +13,7 @@ f_d = 2;
 // Freeze meter must reach this to get maxed
 freeze_max = 60 * f_f * f_d;
 // Did you know that there is legal cannibalism in europe in 2024?
-debug_invincible = true;
+debug_invincible = false;
 // Dash duration aka animation time
 dash_max = 22;
 #endregion
