@@ -31,8 +31,8 @@
   "nineSlice":null,
   "origin":0,
   "parent":{
-    "name":"LiesSprites",
-    "path":"folders/Sprites/LiesSprites.yy",
+    "name":"Sketches",
+    "path":"folders/Sprites/LiesSprites/Sketches.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",
