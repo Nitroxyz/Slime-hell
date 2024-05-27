@@ -1,5 +1,6 @@
 //Key detection system
 #region
+// Initialize keys
 var key_left;
 var key_right;
 var key_up;
@@ -7,8 +8,10 @@ var key_down;
 var freeze_key;
 var dash_key;
 var left_hold;
+
+// Set the keys
 key_left = keyboard_check( ord("K") );
-key_right = keyboard_check( 192 );
+key_right = keyboard_check( 192 ); // Custom ö
 key_up = keyboard_check( ord("O") );
 key_down = keyboard_check( ord("L") );
 	
@@ -17,6 +20,12 @@ key_left = key_left || keyboard_check( ord("A") );
 key_right = key_right || keyboard_check( ord("D") );
 key_up = key_up || keyboard_check( ord("W") );
 key_down = key_down || keyboard_check( ord("S") );
+
+// Arrow keys
+key_left = key_left || keyboard_check(vk_left);
+key_right = key_right || keyboard_check(vk_right);
+key_up = key_up || keyboard_check(vk_up);
+key_down = key_down || keyboard_check(vk_down);
 	
 left_hold = mouse_check_button(mb_left);
 
