@@ -1,16 +1,13 @@
 {
   "$GMObject":"",
-  "%Name":"the_face",
-  "eventList":[
-    {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-  ],
+  "%Name":"unkwn",
+  "eventList":[],
   "managed":true,
-  "name":"the_face",
+  "name":"unkwn",
   "overriddenProperties":[],
   "parent":{
-    "name":"BossObjects",
-    "path":"folders/Objects/BossObjects.yy",
+    "name":"Objects",
+    "path":"folders/Objects.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -30,10 +27,7 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":{
-    "name":"spr_face_moving",
-    "path":"sprites/spr_face_moving/spr_face_moving.yy",
-  },
+  "spriteId":null,
   "spriteMaskId":null,
   "visible":true,
 }
