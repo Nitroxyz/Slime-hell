@@ -13,9 +13,11 @@ f_d = 2;
 // Freeze meter must reach this to get maxed
 freeze_max = 60 * f_f * f_d;
 // Did you know that there is legal cannibalism in europe in 2024?
-debug_invincible = true;
+debug_invincible = false;
 // Dash duration aka animation time
 dash_max = 22;
+// Maximum duration of fire (Max kills you)
+fire_max = 120;
 #endregion
 
 // Auto-set variables
@@ -37,6 +39,10 @@ freezing = false;
 freeze_meter = freeze_max;
 // Freeze ready
 freeze_full = true;
+// Fire variable
+fire_meter = 0;
+// When true, mate is burning
+is_burning = false;
 #endregion
 
 //Functions
@@ -65,6 +71,8 @@ stop_dash = function(){
 }
 
 freeze = function(){
+	fire_meter = 0;
+	is_burning = false;
 	if(dashing){
 		stop_dash();
 	}

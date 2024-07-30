@@ -1,5 +1,4 @@
-//Key detection system
-#region
+#region Key detection system
 // Initialize keys
 var key_left;
 var key_right;
@@ -38,8 +37,7 @@ if(mouse_check_button_pressed(mb_right)){
 dash_key = (dash_buffer > 0);
 #endregion
 
-// Movement
-#region
+#region Movement
 if(!move_lock){
 	//direction calculation
 	var move_h = key_right - key_left;
@@ -72,8 +70,7 @@ if(y + vspeed < 30){
 }
 #endregion
 
-// dashing 
-#region
+#region Dashing 
 if(dash_key and !dashing and !move_lock){
 	dash(mouse_x, mouse_y);
 }
@@ -103,15 +100,23 @@ if(dash_step > dash_max){
 }
 #endregion
 
-// Freezing
-#region
+
+#region Freezing
 if(freeze_key and !move_lock and freeze_full){
 	freeze();
 }
 #endregion
 
-//Animation
-#region
+#region Burning
+if(is_burning){
+	fire_meter++;
+}
+if(fire_meter >= fire_max){
+	dying();
+}
+#endregion
+
+#region Animation
 if(dashing){
 	sprite_index = spr_hot;
 } else {
@@ -126,8 +131,7 @@ if(hspeed != 0){
 }
 #endregion
 
-//Taking damage
-#region
+#region Taking damage
 // Collision for regular projectiles
 if(place_meeting(x, y, daddy_noneya_collision)){
 	var inst_list = ds_list_create();
@@ -138,7 +142,8 @@ if(place_meeting(x, y, daddy_noneya_collision)){
 			// Trail; immune during freeze, not immune during dash
 			if(object_is_ancestor(inst.object_index, daddy_noneya_trail)){
 				if(!freezing){
-					dying();
+					//dying();
+					is_burning = true;
 				}
 			}
 			// Overhead; not immune during freeze, immune during dash
@@ -179,8 +184,7 @@ if(freeze_meter = freeze_max){
 }
 #endregion
 
-// Fake end step
-#region
+#region Fake end step
 if(dash_buffer > 0){
 	dash_buffer--;
 }
