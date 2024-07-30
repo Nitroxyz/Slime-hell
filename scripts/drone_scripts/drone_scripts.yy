@@ -1,5 +1,5 @@
 {
-  "$GMScript":"",
+  "$GMScript":"v1",
   "%Name":"drone_scripts",
   "isCompatibility":false,
   "isDnD":false,

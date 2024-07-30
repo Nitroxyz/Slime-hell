@@ -1,7 +1,7 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-timer += 1;
+ttimer += 1;
 
 if(BossCTRL.ongoing_event == true) {
 	depth = 399;
@@ -9,7 +9,7 @@ if(BossCTRL.ongoing_event == true) {
 	depth = 1300;
 }
 
-if(timer > 59 && timer < 89) {
+if(ttimer > 59 && ttimer < 89) {
 	sprite_index = missile_shadow;
 	opacity += 0.05;
 	image_alpha = opacity;
@@ -17,7 +17,7 @@ if(timer > 59 && timer < 89) {
 
 
 }
-if(timer > 89) {
+if(ttimer > 89) {
 	
 	instance_destroy();	
 	sprite_delete(missile_shadow);

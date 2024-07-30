@@ -2,5 +2,5 @@
 // You can write your code in this editor
 
 missile_shadow = sprite_duplicate(spr_shadow);	
-timer = 0;
+ttimer = 0;
 opacity = 0;

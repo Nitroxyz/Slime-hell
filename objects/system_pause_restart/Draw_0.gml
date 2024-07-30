@@ -18,7 +18,8 @@ if(paused){
 		draw_rectangle(0, 0, room_width, room_height, false);
 		draw_set_alpha(1);
 		draw_set_color(c_white);
+		draw_set_halign(fa_center);
 		draw_text_transformed_colour(room_width / 2, room_height / 2, "PAUSED", 2, 2, 0, c_aqua, c_aqua, c_aqua, c_aqua, 1);
-		
+		draw_text_transformed_colour(room_width / 2, (room_height / 2)+30, "PRESS ALT + F4 TO EXIT", 2, 2, 0, c_aqua, c_aqua, c_aqua, c_aqua, 1);
 	}
 }
