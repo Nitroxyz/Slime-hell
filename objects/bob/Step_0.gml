@@ -85,19 +85,21 @@ if(dashing){
 	//for(var i = 0; i < dash_distance/18; i += 50){
 	//	instance_create_layer(x + i*xspd/50, y + i*yspd/50, "SlimeTrailFire", fire_trail);
 	//}
-	instance_create_layer(x, y, "SlimeTrailFire", fire_trail);
-	if(dash_step < dash_max){
+	//instance_create_layer(x, y, "SlimeTrailFire", fire_trail);
+	if(dash_step + 1 < dash_max){
 		var xspd = lengthdir_x(dash_distance/dash_max, direction);
 		var yspd = lengthdir_y(dash_distance/dash_max, direction);
-		//instance_create_layer(x + xspd/3, y + yspd/3, "SlimeTrailFire", fire_trail);
-		//instance_create_layer(x + 2*xspd/3, y + 2*yspd/3, "SlimeTrailFire", fire_trail);
 		instance_create_layer(x, y, "SlimeTrailFire", fire_trail);
-		instance_create_layer(x + xspd/2, y + yspd/2, "SlimeTrailFire", fire_trail);
+		instance_create_layer(x + xspd/3, y + yspd/3, "SlimeTrailFire", fire_trail);
+		instance_create_layer(x + 2*xspd/3, y + 2*yspd/3, "SlimeTrailFire", fire_trail);
+		//instance_create_layer(x, y, "SlimeTrailFire", fire_trail);
+		//instance_create_layer(x + xspd/2, y + yspd/2, "SlimeTrailFire", fire_trail);
 	}
 	dash_step++;
 }
 if(dash_step > dash_max){
 	stop_dash();
+} else {
 }
 #endregion
 
