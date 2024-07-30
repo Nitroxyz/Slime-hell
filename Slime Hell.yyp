@@ -111,6 +111,7 @@
     {"id":{"name":"system_system","path":"objects/system_system/system_system.yy",},},
     {"id":{"name":"system_the_darkness_is_coming","path":"objects/system_the_darkness_is_coming/system_the_darkness_is_coming.yy",},},
     {"id":{"name":"the_face","path":"objects/the_face/the_face.yy",},},
+    {"id":{"name":"the_timer","path":"objects/the_timer/the_timer.yy",},},
     {"id":{"name":"timer","path":"objects/timer/timer.yy",},},
     {"id":{"name":"unkwn","path":"objects/unkwn/unkwn.yy",},},
     {"id":{"name":"fallingPath","path":"paths/fallingPath/fallingPath.yy",},},

@@ -37,6 +37,7 @@
     {"name":"system_system","order":3,"path":"objects/system_system/system_system.yy",},
     {"name":"system_the_darkness_is_coming","order":1,"path":"objects/system_the_darkness_is_coming/system_the_darkness_is_coming.yy",},
     {"name":"the_face","order":5,"path":"objects/the_face/the_face.yy",},
+    {"name":"the_timer","order":4,"path":"objects/the_timer/the_timer.yy",},
     {"name":"timer","order":3,"path":"objects/timer/timer.yy",},
     {"name":"unkwn","order":11,"path":"objects/unkwn/unkwn.yy",},
     {"name":"hardsimulloopL","order":3,"path":"paths/hardsimulloopL/hardsimulloopL.yy",},

@@ -10,11 +10,13 @@
     {"name":"inst_64D90482","path":"rooms/Room1/Room1.yy",},
     {"name":"inst_9F5EFBB","path":"rooms/Room1/Room1.yy",},
     {"name":"inst_50A996C2","path":"rooms/Room1/Room1.yy",},
+    {"name":"inst_4AE0C95C","path":"rooms/Room1/Room1.yy",},
   ],
   "isDnd":false,
   "layers":[
     {"$GMRInstanceLayer":"","%Name":"Layer9","depth":0,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
         {"$GMRInstance":"v1","%Name":"inst_50A996C2","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_50A996C2","objectId":{"name":"BossCTRL","path":"objects/BossCTRL/BossCTRL.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":0.0,"y":96.0,},
+        {"$GMRInstance":"v1","%Name":"inst_4AE0C95C","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_4AE0C95C","objectId":{"name":"timer","path":"objects/timer/timer.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":1760.0,"y":64.0,},
       ],"layers":[],"name":"Layer9","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRAssetLayer":"","%Name":"Assets_1","assets":[
         {"$GMRSpriteGraphic":"","%Name":"graphic_29BAD68B_1","animationSpeed":1.0,"colour":4294967295,"frozen":false,"headPosition":0.0,"ignore":false,"inheritedItemId":null,"inheritItemSettings":false,"name":"graphic_29BAD68B_1","resourceType":"GMRSpriteGraphic","resourceVersion":"2.0","rotation":179.6931,"scaleX":1.0,"scaleY":1.0,"spriteId":{"name":"spr_mid_segment","path":"sprites/spr_mid_segment/spr_mid_segment.yy",},"x":960.0,"y":224.0,},
