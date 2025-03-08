@@ -112,7 +112,7 @@ if(is_burning){
 	fire_meter++;
 }
 if(fire_meter >= fire_max){
-	dying();
+	dying(true);
 }
 #endregion
 

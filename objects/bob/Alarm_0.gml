@@ -14,7 +14,7 @@ with(ice_bomb){
 		instance_destroy(inst);
 	}
 }
-var big_scale = 2
+var big_scale = 2.5
 image_xscale *= big_scale;
 image_yscale *= big_scale;
 while(place_meeting(x, y, fire_trail)){

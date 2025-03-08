@@ -86,9 +86,15 @@ freeze = function(){
 	}
 }
 
-dying = function(){
+dying = function(is_crispy = false){
 	if(!debug_invincible){
-		instance_destroy();
+		if is_crispy {
+			instance_create_layer(x, y, "MrDead", mr_crispy)
+			instance_destroy()
+		} else {
+			instance_create_layer(x, y + 40, "MrDead", mr_dead)
+			instance_destroy()
+		}
 	}
 }
 #endregion
