@@ -112,6 +112,7 @@
     {"name":"spr_mr_dead_old","order":2,"path":"sprites/spr_mr_dead_old/spr_mr_dead_old.yy",},
     {"name":"spr_mr_dead","order":1,"path":"sprites/spr_mr_dead/spr_mr_dead.yy",},
     {"name":"spr_mr_freeze_old","order":3,"path":"sprites/spr_mr_freeze_old/spr_mr_freeze_old.yy",},
+    {"name":"spr_new_creadits","order":4,"path":"sprites/spr_new_creadits/spr_new_creadits.yy",},
     {"name":"spr_oneSidedLine_flashing","order":1,"path":"sprites/spr_oneSidedLine_flashing/spr_oneSidedLine_flashing.yy",},
     {"name":"spr_play","order":1,"path":"sprites/spr_play/spr_play.yy",},
     {"name":"spr_right_cannon","order":4,"path":"sprites/spr_right_cannon/spr_right_cannon.yy",},
